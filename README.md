@@ -1,2 +1,2 @@
 # awindest.github.io
-Public Web Site
+Wherein lies papers, code and graphics.
