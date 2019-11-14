@@ -1,2 +1,2 @@
 # awindest.github.io
-Wherein lies papers, code and graphics.
+Wherein papers, code and graphics, and hopefully knowledge, may be found.
