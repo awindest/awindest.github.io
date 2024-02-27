@@ -1,0 +1,65 @@
+:root {
+	--2px: 0.125rem;
+	--4px: 0.25rem;
+	--8px: 0.5rem;
+	--9px: 0.563rem;
+	--10px: 0.625rem;
+	--12px: 0.75rem;
+	--14px: 0.875rem;
+	--16px: 1rem;
+	--18px: 1.125rem;
+	--20px: 1.25rem;
+	--22px: 1.375rem;
+	--24px: 1.5rem;
+	--28px: 1.75rem;
+	--30px: 1.875rem;
+	--32px: 2rem;
+	--36px: 2.25rem;
+	--40px: 2.5rem;
+	--44px: 2.75rem;
+	--48px: 3rem;
+	--56px: 3.5rem;
+	--64px: 4rem;
+	--80px: 5rem;
+	--96px: 6rem;
+	--112px: 7rem;
+	--128px: 8rem;
+
+	--color-green: hsl(159, 74%, 18%);
+	--color-mint-green: hsl(124, 19%, 58%);
+	/* --color-light-green: hsl(124, 19%, 88%); */
+	--color-dark-green: hsl(153, 15%, 36%);
+	--color-light-green: hsl(124, 29%, 66%);
+
+	--color-dark-blue: hsl(202, 96%, 52%);
+	--color-blue: hsl(202, 80%, 72%);
+	--color-light-blue: hsl(184, 98%, 51%);
+	--color-lighter-blue: hsl(184, 99%, 91%);
+	--color-light-sky-blue: hsl(210, 73%, 47%);
+	/* for the sky gradient */
+	--color-sky-blue: hsl(211, 91%, 37%);
+	/* for the sky gradient */
+
+	--hsl-gray-50: 210, 40%, 98%;
+	--hsl-gray-100: 210, 40%, 96.1%;
+	--hsl-gray-200: 214.3, 31.8%, 91.4%;
+	--hsl-gray-300: 212.7, 26.8%, 83.9%;
+	--hsl-gray-400: 215, 20.2%, 65.1%;
+	--hsl-gray-500: 215.4, 16.3%, 46.9%;
+	--hsl-gray-600: 215.3, 19.3%, 34.5%;
+	--hsl-gray-700: 215.3, 25%, 26.7%;
+	--hsl-gray-800: 217.2, 32.6%, 17.5%;
+	--hsl-gray-900: 222.2, 47.4%, 11.2%;
+
+	--color-gray-50: hsl(var(--hsl-gray-50));
+	--color-gray-100: hsl(var(--hsl-gray-100));
+	--color-gray-200: hsl(var(--hsl-gray-200));
+	--color-gray-300: hsl(var(--hsl-gray-300));
+	--color-gray-400: hsl(var(--hsl-gray-400));
+	--color-gray-500: hsl(var(--hsl-gray-500));
+	--color-gray-600: hsl(var(--hsl-gray-600));
+	--color-gray-700: hsl(var(--hsl-gray-700));
+	--color-gray-800: hsl(var(--hsl-gray-800));
+	--color-gray-900: hsl(var(--hsl-gray-900));
+
+}

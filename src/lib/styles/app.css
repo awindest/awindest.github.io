@@ -1,0 +1,199 @@
+@import "baseline.css";
+@import "variables.css";
+@import "normalize.css";
+@import "font.css";
+@import "reset.css";
+
+/* colors defined in variables.css */
+:root {
+	/* font */
+	/* --sans: "National 2 Web", -apple-system, BlinkMacSystemFont, Helvetica, Arial, */
+
+	--sans: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--serif: Iowan Old Style, Times New Roman, Times, serif;
+	--mono: Menlo, Consolas, Monaco, monospace;
+
+	--font-header: "forma-djr-display", var(--sans);
+	--font-subheader: "forma-djr-deck", var(--sans);
+	--font-body: "forma-djr-text", var(--sans);
+	--font-decorative: "manifold-extended-cf", var(--mono);
+
+	/* z-index */
+	--z-bottom: -100;
+	--z-middle: 0;
+	--z-top: 100;
+	--z-overlay: 1000;
+
+	--color-thumb: var(--color-gray-400);
+	--color-track: var(--color-gray-50);
+
+	--color-bg: var(--color-white);
+	--color-fg: var(--color-gray-900);
+	--color-primary: var(--color-black);
+	--color-link: var(--color-black);
+	--color-focus: var(--color-red);
+	--color-mark: var(--color-yellow);
+	--color-selection: var(--color-gray-300);
+	--color-border: var(--color-gray-300);
+	--color-button-bg: var(--color-gray-300);
+	--color-button-fg: var(--color-gray-900);
+	--color-button-hover: var(--color-gray-400);
+	--color-input-bg: var(--color-gray-50);
+	--color-input-fg: var(--color-gray-900);
+	--color-placeholder: var(--color-gray-500);
+
+	/* "1" second duration */
+	--1s: 1ms;
+
+	/* Change colors, perhaps? */
+	/* shadows */
+	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	--shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+		0 4px 6px -4px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1);
+	--shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+	--shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+
+	--text-border-color: var(--color-gray-50);
+	--text-border: var(--text-border-color) 4px 0px 0px,
+		var(--text-border-color) 3.87565px 0.989616px 0px,
+		var(--text-border-color) 3.51033px 1.9177px 0px,
+		var(--text-border-color) 2.92676px 2.72656px 0px,
+		var(--text-border-color) 2.16121px 3.36588px 0px,
+		var(--text-border-color) 1.26129px 3.79594px 0px,
+		var(--text-border-color) 0.282949px 3.98998px 0px,
+		var(--text-border-color) -0.712984px 3.93594px 0px,
+		var(--text-border-color) -1.66459px 3.63719px 0px,
+		var(--text-border-color) -2.51269px 3.11229px 0px,
+		var(--text-border-color) -3.20457px 2.39389px 0px,
+		var(--text-border-color) -3.69721px 1.52664px 0px,
+		var(--text-border-color) -3.95997px 0.56448px 0px,
+		var(--text-border-color) -3.97652px -0.432781px 0px,
+		var(--text-border-color) -3.74583px -1.40313px 0px,
+		var(--text-border-color) -3.28224px -2.28625px 0px,
+		var(--text-border-color) -2.61457px -3.02721px 0px,
+		var(--text-border-color) -1.78435px -3.57996px 0px,
+		var(--text-border-color) -0.843183px -3.91012px 0px,
+		var(--text-border-color) 0.150409px -3.99717px 0px,
+		var(--text-border-color) 1.13465px -3.8357px 0px,
+		var(--text-border-color) 2.04834px -3.43574px 0px,
+		var(--text-border-color) 2.83468px -2.82216px 0px,
+		var(--text-border-color) 3.44477px -2.03312px 0px,
+		var(--text-border-color) 3.84068px -1.11766px 0px,
+		var(--text-border-color) 3.9978px -0.132717px 0px;
+}
+
+/* dark theme */
+/* @media screen and (prefers-color-scheme: dark) {
+	:root {
+		--color-bg: var(--color-gray-900);
+		--color-fg: var(--color-gray-100);
+		--color-primary: var(--color-white);
+		--color-link: var(--color-white);
+		--color-focus: var(--color-red);
+		--color-mark: var(--color-yellow);
+		--color-selection: var(--color-gray-600);
+		--color-border: var(--color-gray-600);
+		--color-button-bg: var(--color-gray-600);
+		--color-button-fg: var(--color-gray-100);
+		--color-button-hover: var(--color-gray-700);
+		--color-input-bg: var(--color-gray-800);
+		--color-input-fg: var(--color-gray-100);
+		--color-placeholder: var(--color-gray-400);
+		--color-text-outline: var(--color-bg);
+	}
+} */
+
+@media screen and (prefers-reduced-motion: no-preference) {
+	:root {
+		--1s: 1s;
+	}
+}
+
+a {
+	border: none;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	visibility: hidden;
+
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* display: grid;
+	grid-template-rows: auto auto 1fr; */
+
+	color: var(--color-gray-800);
+	background-color: var(--color-gray-50);
+	/* background-color: var(--color-light-green); */
+	/* TODO: Self-host the image */
+	/* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
+}
+
+@media (min-width: 500px) {
+	html {
+		scrollbar-color: var(--color-thumb) var(--color-track);
+		scrollbar-width: thin;
+	}
+
+	::-webkit-scrollbar {
+		width: 10px;
+		height: 12px;
+		background-color: var(--color-track);
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 1000px;
+		background-color: var(--color-thumb);
+		border: 2px solid var(--color-track);
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: var(--color-gray-500);
+		background-color: var(--color-light-sky-blue);
+		cursor: pointer;
+	}
+}
+
+h1 {
+	font-size: var(--48px, 48px);
+}
+
+h2 {
+	font-size: var(--36px, 36px);
+}
+
+h3 {
+	font-size: var(--28px, 28px);
+}
+
+h4 {
+	font-size: var(--24px, 24px);
+}
+
+h5 {
+	font-size: var(--22px, 22px);
+}
+
+h6 {
+	font-size: var(--20px, 20px);
+}
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
