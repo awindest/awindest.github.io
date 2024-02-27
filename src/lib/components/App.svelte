@@ -18,6 +18,7 @@
 	// FIXME: Can this be done elsewhere for optimization?
 	// Process data
 	const groupedData = group(data, (d) => d.type) // aggregate based upon the 'type' of card
+	console.log(groupedData.get('stories'))
 	onMount(() => {
 		// after the DOM loads, animate the cards once. Love greensock.
 		// To do: animate as user scrolls down the page using gsap's ScrollTrigger
@@ -78,7 +79,6 @@
 	}
 </script>
 
-<!-- <BodyTexture /> -->
 <div class="wrapper">
 	<Header />
 

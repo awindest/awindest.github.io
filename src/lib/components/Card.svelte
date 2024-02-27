@@ -6,18 +6,18 @@
 	// github link
 	// Only reveal when come into view? rotateX
 	// TODO: Focus state; animation; visual cues
-	import { base } from "$app/paths";
-	import { Award } from "lucide-svelte";
+	import { base } from '$app/paths'
+	import { Award } from 'lucide-svelte'
 
-	export let data;
-
+	export let data
+	console.log('base:::: ', `${base}`)
 	function toMonthName(monthNumber) {
-		const date = new Date();
-		date.setMonth(monthNumber - 1);
+		const date = new Date()
+		date.setMonth(monthNumber - 1)
 
-		return date.toLocaleString("en-US", {
-			month: "short"
-		});
+		return date.toLocaleString('en-US', {
+			month: 'short'
+		})
 	}
 </script>
 
@@ -26,16 +26,17 @@
 		<!-- TODO: Use month names instead of numbers -->
 		<div class="date">
 			<!-- {data.month ? `${data.month.padStart(2, "0")} / ${data.year}` : "WIP"} -->
-			{data.month ? `${toMonthName(data.month)} ${data.year}` : "WIP"}
+			{data.month ? `${toMonthName(data.month)} ${data.year}` : 'WIP'}
 		</div>
 		<div class="tags-wrapper">
-			{#each data.tags.split(",") as tag}
+			{#each data.tags.split(',') as tag}
 				<div class="tag">{tag}</div>
 			{/each}
 		</div>
 	</div>
 	<!-- FIXME: Lazy loading for images? Image optimization -->
-	<a href={`${base}${data.url}`} target="_blank" rel="noopener">
+	<a href={`${data.url}`} target="_blank" rel="noopener">
+		<!-- <a href={`${base}${data.url}`} target="_blank" rel="noopener"> -->
 		<div class="img-wrapper">
 			<img
 				src={data.imgUrl}
@@ -145,7 +146,9 @@
 		will-change: transform;
 		transition: 0.4s ease-in-out transform; */
 
-		transition: transform 600ms, box-shadow 600ms;
+		transition:
+			transform 600ms,
+			box-shadow 600ms;
 
 		transform: translateZ(0);
 	}
@@ -255,13 +258,13 @@
 		article {
 			padding-left: 0;
 			padding-top: 0;
-      padding-bottom: 48px;
+			padding-bottom: 48px;
 			width: 300px;
 		}
 
 		h3 {
 			font-size: var(--24px);
-      margin-top: 0;
+			margin-top: 0;
 		}
 
 		h4 {
