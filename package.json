@@ -1,6 +1,6 @@
 {
-	"name": "awindest.github.io-migration",
-	"version": "0.0.1",
+	"name": "awindest.github.io",
+	"version": "0.0.2",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -14,12 +14,11 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
-		"d3": "^7.8.5",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"feather-icons": "^4.29.1",
-		"gsap": "^3.12.5",
+		"iconify-icon": "^2.0.0",
 		"lucide-svelte": "^0.335.0",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
@@ -27,5 +26,8 @@
 		"svelte-persisted-store": "^0.9.1",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"open-props": "^1.6.21"
+	}
 }

@@ -10,7 +10,6 @@
 	import { Award } from 'lucide-svelte'
 
 	export let data
-	console.log('base:::: ', `${base}`)
 	function toMonthName(monthNumber) {
 		const date = new Date()
 		date.setMonth(monthNumber - 1)
@@ -23,7 +22,6 @@
 
 <article>
 	<div class="metadata-wrapper">
-		<!-- TODO: Use month names instead of numbers -->
 		<div class="date">
 			<!-- {data.month ? `${data.month.padStart(2, "0")} / ${data.year}` : "WIP"} -->
 			{data.month ? `${toMonthName(data.month)} ${data.year}` : 'WIP'}
@@ -84,7 +82,7 @@
 		display: flex;
 		flex-direction: column;
 
-		gap: var(--16px);
+		gap: var(--size-3);
 
 		width: 384px;
 		height: 100%;
@@ -92,25 +90,22 @@
 		padding-bottom: 36px;
 		overflow: visible;
 
-		color: var(--color-gray-700);
-		/* background-color: var(--color-light-green); */
-
-		/* border-right: 2px solid var(--color-gray-300); */
+		color: var(--gray-7);
 	}
 
 	.metadata-wrapper {
 		display: flex;
 		flex-direction: column;
-		gap: var(--4px);
-
+		/* gap: var(--size-00); */
+		gap: var(--size-1);
 		padding-left: var(--padding-left);
 	}
 
 	.date {
 		font-family: var(--font-decorative);
-		font-size: var(--12px);
+		font-size: 0.75rem;
 		font-weight: 900;
-		color: var(--color-gray-400);
+		color: var(--gray-5);
 		text-transform: uppercase;
 	}
 
@@ -119,32 +114,25 @@
 		padding: 2px 6px;
 		margin-right: 8px;
 
-		color: var(--color-gray-500);
+		color: var(--gray-7);
 		font-family: var(--font-decorative);
-		/* font-family: var(--font-body); */
-		font-size: var(--10px);
+		font-size: 0.75rem;
 		font-weight: 900;
 		text-transform: uppercase;
 
 		/* background-color: var(--color-lighter-blue); */
-		background-color: var(--color-gray-100);
-		border: 1px solid var(--color-gray-300);
-		border-radius: var(--2px);
+		background-color: var(--gray-1);
+		border: 1px solid var(--gray-3);
+		border-radius: var(--size-00);
 	}
 
 	.img-wrapper {
-		border-radius: var(--8px);
+		border-radius: var(--size-2);
 		overflow: hidden;
 
 		box-shadow: var(--shadow-lg);
 
-		margin-bottom: var(--16px);
-
-		/* transform: perspective(2000px) translate3d(0px, -66px, 198px)
-			rotateX(-55deg) scale3d(0.86, 0.75, 1) translateY(50px);
-		border-radius: 5px;
-		will-change: transform;
-		transition: 0.4s ease-in-out transform; */
+		margin-bottom: var(--size-3);
 
 		transition:
 			transform 600ms,
@@ -154,7 +142,6 @@
 	}
 
 	article:hover .img-wrapper {
-		/* transform: perspective(250px) rotateY(5deg) rotateX(5deg); */
 		transform: perspective(250px) rotateY(7deg);
 		box-shadow: var(--shadow-2xl);
 	}
@@ -184,25 +171,25 @@
 
 	h3 {
 		margin: 0;
-		margin-bottom: var(--8px);
-		margin-top: var(--4px);
+		margin-bottom: var(--size-2);
+		margin-top: var(--size-1);
 
 		font-weight: 700;
-		font-size: var(--32px);
+		font-size: var(--size-7);
 		font-family: var(--font-subheader);
 		line-height: 1;
 
-		color: var(--color-gray-700);
+		color: var(--gray-7);
 	}
 
 	h4 {
 		margin: 0;
 
 		line-height: 1.1;
-		font-size: var(--20px);
+		font-size: var(--size-4);
 		font-family: var(--font-body);
 
-		color: var(--color-gray-500);
+		color: var(--gray-5);
 	}
 
 	.details {
@@ -219,7 +206,6 @@
 	.award {
 		position: relative;
 		justify-self: flex-end;
-		/* align-self: flex-end; */
 
 		/* padding: 0 8px; */
 		padding-left: var(--padding-left);
@@ -227,12 +213,12 @@
 		border-radius: 5px;
 
 		/* background-color: var(--color-lighter-blue); */
-		color: var(--color-gray-400);
-		font-size: var(--16px);
+		color: var(--gray-7);
+		font-size: var(--size-3);
 	}
 
 	:global(.comments a, .award a) {
-		--text-color: var(--color-gray-500);
+		--text-color: var(--gray-7);
 
 		color: var(--text-color);
 
@@ -252,7 +238,7 @@
 	@media (max-width: 37.5rem) {
 		.date,
 		.tag {
-			font-size: var(--9px);
+			font-size: var(--size-2);
 		}
 
 		article {
@@ -263,17 +249,17 @@
 		}
 
 		h3 {
-			font-size: var(--24px);
+			font-size: var(--size-5);
 			margin-top: 0;
 		}
 
 		h4 {
-			font-size: var(--18px);
+			font-size: var(--size-4);
 		}
 
 		.comments,
 		.award {
-			font-size: var(--14px);
+			font-size: var(--size-3);
 		}
 	}
 </style>

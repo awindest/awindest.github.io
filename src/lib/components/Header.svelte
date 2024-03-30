@@ -1,35 +1,31 @@
 <script>
-	// TODO: Fade away text on scroll
-	// TODO: Show white text on black background first?
 	import Cloud from '$components/Cloud.svelte'
-	import GridPattern from '$components/GridPattern.svelte'
-	import Gradient from '$components/Gradient.svelte'
 	import Icon from '$components/Icon.svelte'
 	import IconLink from '$components/IconLink.svelte'
-	// import LibLoader from "$components/LibLoader.svelte";
-
 	const iconSize = '1.75rem'
 </script>
 
 <header>
 	<!-- TODO: Desaturate; add filters to better match the color palette -->
 	<Cloud />
-
 	<div class="introduction">
 		<div class="heading">
 			<span class="im">I'm</span>
 			<h1 class="name">
-				<span class="lighten first-name">Bill</span>
-				<span class="lighten last-name">Indest</span>
+				Bill Indest
+				<!-- <span class="lighten first-name">Bill</span>
+				<span class="lighten last-name">Indest</span> -->
 			</h1>
 		</div>
+		<iconify-icon icon="lucide:mail"></iconify-icon>
+		<!-- <Icon icon="lucide:mail" /> -->
 		<p class="intro">
 			I like telling <span class="visual em-1">stories </span>about data and technology<br />
 			<!-- <span id="interactive" class="interactive em-1">interactive</span>
 			<br /><span id="stories" class="stories em-2">stories</span> -->
 			and making
-			<span id="explorables" class="explorables em-2">visualizations</span>.
-			<!-- <DecorativeLine /> -->
+			<span class="em-2">visualizations</span>
+
 			<span id="socials" class="socials"
 				><IconLink href="mailto:william.indest@gmail.com">
 					<Icon slot="icon" name="mail" width={iconSize} height={iconSize} />
@@ -54,18 +50,14 @@
 			</span>
 		</p>
 	</div>
-	<GridPattern />
-	<Gradient />
 </header>
 
 <style>
 	.lighten {
-		color: var(--color-gray-600);
+		color: var(--gray-6);
 	}
 
 	.em-1 {
-		/* font-weight: 700; */
-		/* color: var(--color-gray-600); */
 		text-decoration-line: underline;
 		text-decoration-color: var(--color-blue);
 		text-decoration-style: solid;
@@ -73,8 +65,6 @@
 	}
 
 	.em-2 {
-		/* font-weight: 700; */
-		/* color: var(--color-gray-600); */
 		text-decoration-line: underline;
 		text-decoration-color: var(--color-light-green);
 		text-decoration-style: solid;
@@ -82,11 +72,17 @@
 	}
 
 	.introduction {
-		/* visibility: hidden; */
 		width: 960px;
 		padding-left: 32px;
-
 		transform: translateZ(1000px);
+	}
+
+	.name {
+		/* text-shadow:; */
+		/* -3px -3px 2px #fff,
+			-3px 3px 2px #fff,
+			3px -3px 2px #fff,
+			3px 3px 2px #fff; */
 	}
 
 	header {
@@ -96,15 +92,11 @@
 		isolation: isolate;
 
 		padding-top: 55px;
-
-		/* display: flex;
-		flex-direction: column;
-		align-items: center; */
 		display: grid;
 		place-items: center;
 
 		overflow: hidden;
-		background-color: var(--color-gray-50);
+		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), hsl(210, 73%, 47%));
 	}
 
 	h1 {
@@ -117,7 +109,7 @@
 	.im {
 		margin-right: 8px;
 		font-weight: 500;
-		font-size: var(--44px);
+		font-size: var(--size-8);
 		font-family: var(--font-header);
 	}
 
@@ -125,11 +117,7 @@
 		position: relative;
 		display: inline-block;
 		font-family: var(--font-subheader);
-		font-size: var(--32px);
-		/* text-align: center; */
-
-		/* background-color: var(--color-gray-800);
-		color: var(--color-gray-100); */
+		font-size: var(--size-7);
 	}
 
 	.socials {
@@ -141,7 +129,6 @@
 	@media (max-width: 37.5rem) {
 		header {
 			--underline-width: 4px;
-
 			padding-top: 50px;
 		}
 

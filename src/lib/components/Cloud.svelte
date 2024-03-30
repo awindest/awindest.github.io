@@ -22,39 +22,19 @@ Recommend viewing in Visual Source Code.
 	<svg width="0" height="0">
 		<!--Top Layer-->
 		<filter id="filter-base">
-			<feTurbulence
-				type="fractalNoise"
-				baseFrequency="0.011"
-				numOctaves="5"
-				seed="8517"
-			/>
+			<feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="5" seed="8517" />
 			<feDisplacementMap in="SourceGraphic" scale="120" />
 		</filter>
 		<filter id="filter-back">
-			<feTurbulence
-				type="fractalNoise"
-				baseFrequency="0.011"
-				numOctaves="3"
-				seed="8517"
-			/>
+			<feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="3" seed="8517" />
 			<feDisplacementMap in="SourceGraphic" scale="120" />
 		</filter>
 		<filter id="filter-mid">
-			<feTurbulence
-				type="fractalNoise"
-				baseFrequency="0.011"
-				numOctaves="3"
-				seed="8517"
-			/>
+			<feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="3" seed="8517" />
 			<feDisplacementMap in="SourceGraphic" scale="120" />
 		</filter>
 		<filter id="filter-front">
-			<feTurbulence
-				type="fractalNoise"
-				baseFrequency="0.009"
-				numOctaves="4"
-				seed="8517"
-			/>
+			<feTurbulence type="fractalNoise" baseFrequency="0.009" numOctaves="4" seed="8517" />
 			<feDisplacementMap in="SourceGraphic" scale="50" />
 		</filter>
 	</svg>
@@ -62,8 +42,11 @@ Recommend viewing in Visual Source Code.
 
 <style>
 	.cloud-container {
-		transform: translate(-150%) scale(0.45);
-		/* animation: animate 10s linear infinite; */
+		position: absolute;
+		transform: translate(-3vw, 2vw) scale(0.45);
+		-moz-animation: animateCloud 60s linear infinite;
+		-webkit-animation: animateCloud 60s linear infinite;
+		animation: animateCloud 60s linear infinite;
 	}
 
 	.cloud {
@@ -105,5 +88,34 @@ Recommend viewing in Visual Source Code.
 		left: -20px;
 		filter: url(#filter-front);
 		box-shadow: 210px 272px 30px 0px rgba(0, 0, 0, 0.4);
+	}
+
+	/* Keyframes */
+
+	@-webkit-keyframes animateCloud {
+		0% {
+			margin-left: -130%;
+		}
+		100% {
+			margin-left: 130%;
+		}
+	}
+
+	@-moz-keyframes animateCloud {
+		0% {
+			margin-left: -130%;
+		}
+		100% {
+			margin-left: 130%;
+		}
+	}
+
+	@keyframes animateCloud {
+		0% {
+			margin-left: -130%;
+		}
+		100% {
+			margin-left: 130%;
+		}
 	}
 </style>

@@ -9,7 +9,6 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$components: 'src/lib/components',
-			$data: 'src/lib/data',
 			$stores: 'src/lib/stores',
 			$styles: 'src/lib/styles',
 		  },

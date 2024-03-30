@@ -39,8 +39,13 @@
 		background: linear-gradient(
 			0deg,
 			#ffffff 0%,
-			var(--color-light-sky-blue) 50%,
+			hsl(210, 73%, 47%) 50%,
+			hsl(211, 91%, 37%) 100%
+			/* var(--color-light-sky-blue) 50%,
 			var(--color-sky-blue) 100%
+	--color-light-sky-blue: hsl(210, 73%, 47%);
+		--color-sky-blue: hsl(211, 91%, 37%);
+ */
 		);
 	}
 </style>

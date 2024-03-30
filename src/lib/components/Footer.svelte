@@ -38,12 +38,8 @@
 
 	/* author's stamp */
 	#labs {
-		/* position: absolute;
-		bottom: 0;
-		margin-left: 0.2rem;
-		margin-bottom: 0.2rem; */
-		margin-top: 1.5em;
 
+		margin-top: 1.5em;
 		background: transparent;
 		color: #042e64;
 		font-size: 2em;
