@@ -43,7 +43,7 @@ Recommend viewing in Visual Source Code.
 <style>
 	.cloud-container {
 		position: absolute;
-		transform: translate(-3vw, 2vw) scale(0.45);
+		transform: translate(-5em) scale(0.35);
 		-moz-animation: animateCloud 60s linear infinite;
 		-webkit-animation: animateCloud 60s linear infinite;
 		animation: animateCloud 60s linear infinite;
@@ -87,14 +87,14 @@ Recommend viewing in Visual Source Code.
 		height: 40px;
 		left: -20px;
 		filter: url(#filter-front);
-		box-shadow: 210px 272px 30px 0px rgba(0, 0, 0, 0.4);
+		box-shadow: 210px 272px 30px 0px rgba(0, 0, 0, 0.2);
 	}
 
 	/* Keyframes */
 
 	@-webkit-keyframes animateCloud {
 		0% {
-			margin-left: -130%;
+			margin-left: -150%;
 		}
 		100% {
 			margin-left: 130%;
@@ -103,7 +103,7 @@ Recommend viewing in Visual Source Code.
 
 	@-moz-keyframes animateCloud {
 		0% {
-			margin-left: -130%;
+			margin-left: -150%;
 		}
 		100% {
 			margin-left: 130%;
@@ -112,7 +112,7 @@ Recommend viewing in Visual Source Code.
 
 	@keyframes animateCloud {
 		0% {
-			margin-left: -130%;
+			margin-left: -150%;
 		}
 		100% {
 			margin-left: 130%;

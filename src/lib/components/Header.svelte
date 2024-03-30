@@ -1,52 +1,50 @@
 <script>
 	import Cloud from '$components/Cloud.svelte'
-	import Icon from '$components/Icon.svelte'
-	import IconLink from '$components/IconLink.svelte'
-	const iconSize = '1.75rem'
 </script>
 
 <header>
-	<!-- TODO: Desaturate; add filters to better match the color palette -->
 	<Cloud />
 	<div class="introduction">
 		<div class="heading">
 			<span class="im">I'm</span>
-			<h1 class="name">
+			<h1 class="name lighten">
 				Bill Indest
 				<!-- <span class="lighten first-name">Bill</span>
 				<span class="lighten last-name">Indest</span> -->
 			</h1>
 		</div>
-		<iconify-icon icon="lucide:mail"></iconify-icon>
-		<!-- <Icon icon="lucide:mail" /> -->
 		<p class="intro">
-			I like telling <span class="visual em-1">stories </span>about data and technology<br />
-			<!-- <span id="interactive" class="interactive em-1">interactive</span>
-			<br /><span id="stories" class="stories em-2">stories</span> -->
-			and making
-			<span class="em-2">visualizations</span>
+			I like telling <span class="em-1">stories </span>about data and technology<br />
+			and making <span class="em-2">visualizations</span>
 
-			<span id="socials" class="socials"
-				><IconLink href="mailto:william.indest@gmail.com">
-					<Icon slot="icon" name="mail" width={iconSize} height={iconSize} />
-					<svelte:fragment slot="label">Email</svelte:fragment>
-				</IconLink>
-				<IconLink href="https://twitter.com/windest">
-					<Icon slot="icon" name="twitter" width={iconSize} height={iconSize} />
-					<svelte:fragment slot="label">Twitter</svelte:fragment>
-				</IconLink>
-				<IconLink href="https://www.linkedin.com/in/windest/">
-					<Icon slot="icon" name="linkedin" width={iconSize} height={iconSize} />
-					<svelte:fragment slot="label">Linkedin</svelte:fragment>
-				</IconLink>
-				<IconLink href="https://github.com/awindest">
-					<Icon slot="icon" name="github" width={iconSize} height={iconSize} />
-					<svelte:fragment slot="label">Github</svelte:fragment>
-				</IconLink>
-				<IconLink href="https://awindest.github.io/web-debris/">
-					<Icon slot="icon" name="rss" width={iconSize} height={iconSize} />
-					<svelte:fragment slot="label">RSS</svelte:fragment>
-				</IconLink>
+			<span class="socials">
+				<a href="mailto:william.indest@gmail.com"
+					><iconify-icon class="icon" icon="lucide:mail" title="Send me some mail."
+					></iconify-icon></a
+				>
+				<a href="https://www.linkedin.com/in/windest/"
+					><iconify-icon
+						class="icon"
+						icon="lucide:linkedin"
+						title="Find out more about me on LinkedIn."
+					></iconify-icon></a
+				>
+				<a href="https://sveltekit-markdown-blog-pearl.vercel.app/"
+					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog"></iconify-icon></a
+				>
+				<a href="https://twitter.com/windest"
+					><iconify-icon class="icon" icon="lucide:twitter" title="Twitter"></iconify-icon></a
+				>
+				<a href="https://github.com/awindest"
+					><iconify-icon
+						class="icon"
+						icon="lucide:github"
+						title="All of my work, including this website is on Github."
+					></iconify-icon></a
+				>
+				<a href="https://awindest.github.io/web-debris/"
+					><iconify-icon class="icon" icon="lucide:rss" title="RSS feed"></iconify-icon></a
+				>
 			</span>
 		</p>
 	</div>
@@ -54,21 +52,7 @@
 
 <style>
 	.lighten {
-		color: var(--gray-6);
-	}
-
-	.em-1 {
-		text-decoration-line: underline;
-		text-decoration-color: var(--color-blue);
-		text-decoration-style: solid;
-		text-decoration-thickness: var(--underline-width);
-	}
-
-	.em-2 {
-		text-decoration-line: underline;
-		text-decoration-color: var(--color-light-green);
-		text-decoration-style: solid;
-		text-decoration-thickness: var(--underline-width);
+		color: var(--gray-7);
 	}
 
 	.introduction {
@@ -86,17 +70,22 @@
 	}
 
 	header {
-		--underline-width: 6px;
+		/* --underline-width: 6px; */
 
 		position: relative;
 		isolation: isolate;
 
 		padding-top: 55px;
+		padding-bottom: 50px;
 		display: grid;
 		place-items: center;
 
 		overflow: hidden;
-		background-image: linear-gradient(to top, rgba(255, 0, 0, 0), hsl(210, 73%, 47%));
+		background-color: var(--gray-0);
+		/* background-image: linear-gradient(to top, var(--gray-0), var(--violet-7)); */
+		background-image: linear-gradient(to top, var(--gray-0), var(--blue-7));
+		animation: slidein;
+		/* duration timing-function delay iteration-count direction fill-mode; */
 	}
 
 	h1 {
@@ -112,6 +101,41 @@
 		font-size: var(--size-8);
 		font-family: var(--font-header);
 	}
+	.em-1 {
+		position: relative;
+		/* animation: 3s infinite alternate slidein; */
+		width: 0;
+		animation-duration: 1s;
+	}
+
+	.em-1::after {
+		content: '';
+		position: absolute;
+		bottom: -0.125rem;
+		left: -0.25rem;
+		right: -0.05rem;
+		height: 0.95rem;
+		width: 100%;
+		z-index: -1;
+		background-image: url('/imgs/underline-green-5.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.em-2 {
+		position: relative;
+	}
+	.em-2::after {
+		content: '';
+		position: absolute;
+		bottom: -0.125rem;
+		left: -0.25rem;
+		right: -0.05rem;
+		height: 0.95rem;
+		z-index: -1;
+		background-image: url('/imgs/underline-blue-5.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	.intro {
 		position: relative;
@@ -121,9 +145,21 @@
 	}
 
 	.socials {
-		margin-left: 8px;
+		margin-left: 18px;
 		position: relative;
 		top: 8px;
+	}
+	.icon {
+		color: var(--gray-6);
+		height: 1em;
+		inset: 0;
+		margin-left: 0.5em;
+		transition: 1.3s;
+	}
+
+	.icon:hover {
+		color: var(--gray-8);
+		transform: scale(1.3);
 	}
 
 	@media (max-width: 37.5rem) {

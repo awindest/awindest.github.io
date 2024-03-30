@@ -1,6 +1,6 @@
 {
 	"name": "awindest.github.io",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -20,14 +20,12 @@
 		"feather-icons": "^4.29.1",
 		"iconify-icon": "^2.0.0",
 		"lucide-svelte": "^0.335.0",
+		"open-props": "^1.6.21",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"svelte": "^4.2.7",
 		"svelte-persisted-store": "^0.9.1",
 		"vite": "^5.0.3"
 	},
-	"type": "module",
-	"dependencies": {
-		"open-props": "^1.6.21"
-	}
+	"type": "module"
 }

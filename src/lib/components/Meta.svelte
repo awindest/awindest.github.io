@@ -1,12 +1,12 @@
 <script>
 	import { base } from '$app/paths'
-	export let title = 'Bill Indest'
+	export let title = 'Bill Indest Portfolio'
 	export let description =
 		'I like telling stories about data and technology and making visualizations.'
 	export let url = 'https://awindest.github.io/'
 	export let keywords =
 		'data stories, web technology, web design, data science, data visualization, machine learning, artificial intelligence, AI, data wrangling'
-	// FIXME: Fix social image
+
 	export let socialImg = `${base}/social.png`
 
 	export let preloadFont = [

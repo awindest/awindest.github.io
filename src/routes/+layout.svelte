@@ -11,6 +11,11 @@ Yet another science experiment from Indest Labs.
 Recommend viewing in Visual Source Code.
 -->
 
+<script>
+	import 'open-props/style'
+	import 'iconify-icon'
+</script>
+
 <slot />
 
 <style>

@@ -1,7 +1,4 @@
 <script>
-	// Gradient to dark (like a shadow)
-	// Add texture
-	// import TexturePattern from "$components/TexturePattern.svelte";
 </script>
 
 <footer>
@@ -23,14 +20,11 @@
 		flex: 1 1 150px;
 		position: relative;
 		overflow: hidden;
-
-		/* background-color: #085cb3; */
-		/* TODO: Self-host the image */
 		background-image:
-			linear-gradient(0deg, hsla(211, 91%, 37%, 0.4) 0%, hsl(0, 100%, 100%) 100%),
+		/* linear-gradient(0deg, var(--violet-8) 0%, hsl(0, 100%, 100%) 100%), */
+			linear-gradient(0deg, var(--blue-7) 0%, hsl(0, 100%, 100%) 100%),
 			/* url('https://www.transparenttextures.com/patterns/clean-gray-paper.png'); */
 				url('/imgs/clean-gray-paper.avif');
-		/* background: linear-gradient(0deg, #085cb3 0%, #2178d1 50%, #ffffff 100%); */
 
 		display: flex;
 		justify-content: center;
@@ -38,7 +32,6 @@
 
 	/* author's stamp */
 	#labs {
-
 		margin-top: 1.5em;
 		background: transparent;
 		color: #042e64;

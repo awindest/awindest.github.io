@@ -30,8 +30,8 @@
 <style>
 	section {
 		padding-top: 8px;
-		/* background-color: var(--gray-5); */
-		background-image: url('https://www.transparenttextures.com/patterns/redox-02.png');
+		background-color: var(--color-gray-50);
+		background-image: url('/imgs/redox-02.png');
 	}
 
 	.title-wrapper {
