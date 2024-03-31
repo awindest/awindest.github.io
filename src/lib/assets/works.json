@@ -1,5 +1,22 @@
 [
   {
+    "title": "My First LoFi (local first) app",
+    "subtitle": "Local first allows you to work offline with private data",
+    "url": "https://github.com/awindest/my-first-lofi-app",
+    "month": 5,
+    "year": 2024,
+    "description": "",
+    "keywords": "",
+    "tags": "lofi,code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/lofilogo.webp",
+    "type": "stories"
+  },
+  {
     "title": "Revisiting the \"hello world\" of data science with Knime",
     "subtitle": "This approach sorta implies, \"Why use python?\"",
     "url": "https://awindest.github.io/web-debris/",
