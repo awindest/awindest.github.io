@@ -222,6 +222,7 @@
 
 		/* background-color: var(--color-lighter-blue); */
 		color: var(--color-gray-400);
+		font-family: var(--font-subheader);
 		font-size: var(--16px);
 	}
 
