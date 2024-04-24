@@ -1,5 +1,22 @@
 [
   {
+    "title": "The Penrose Triangle in CSS",
+    "subtitle": "Such a cool optical illusion",
+    "url": "https://penrose-triangle.vercel.app/",
+    "month": 5,
+    "year": 2024,
+    "description": "",
+    "keywords": "",
+    "tags": "css, code",
+    "wip": "",
+    "award": "Attribution: TechieCoder",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/penrose-triangle.webp",
+    "type": "viz"
+  },
+  {
     "title": "My First LoFi (local first) app",
     "subtitle": "Local first allows you to work offline with private data",
     "url": "https://github.com/awindest/my-first-lofi-app",

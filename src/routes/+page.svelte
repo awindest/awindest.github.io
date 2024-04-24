@@ -63,17 +63,7 @@
 			<Works type={category[key]} id={key} data={groupedData[key]} />
 			<Spacer />
 		{/each}
-		<!-- <Works type={'data stories'} id={'stories'} data={groupedData.get('stories')} />
-		<Spacer />
-		<Works type={'data stories'} id={'stories'} data={groupedData.get('stories')} />
-		<Spacer />
-		<Works type={'data visualizations'} id={'viz'} data={groupedData.get('viz')} />
-		<Spacer />
-		<Works type={'miscellanea'} id={'miscellanea'} data={groupedData.get('miscellanea')} />
-		<Spacer />
-		<Works type={'technical papers'} id={'papers'} data={groupedData.get('papers')} />
-		<Spacer />
-		<Works type={'Bill Week'} id={'billweek'} data={groupedData.get('billweek')} /> -->
+
 		<Spacer />
 	</main>
 	<Footer />

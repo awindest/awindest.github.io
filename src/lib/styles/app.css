@@ -5,24 +5,6 @@
 @import "variables.css";
 @import "normalize.css";
 
-/* 
-@font-face {
-	font-family: "Averox";
-	src: url("/fonts/Averox-webfont.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "manifold-extended-cf";
-	src: url("/fonts/ManifoldExtendedCF-Regular.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 500;
-	font-display: swap;
-} */
-
-
 /* colors defined in variables.css */
 :root {
 
