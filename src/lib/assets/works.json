@@ -1,19 +1,19 @@
 [
   {
-    "title": "The Penrose Triangle using CSS",
-    "subtitle": "Such a cool optical illusion",
-    "url": "https://penrose-triangle.vercel.app/",
-    "month": 5,
+    "title": "Country Flags of the World 🌏",
+    "subtitle": "A nice hierarchical data visualization of country flags",
+    "url": "https://sveletkit-world-countries-tree.vercel.app/",
+    "month": 6,
     "year": 2024,
-    "description": "",
+    "description": "Visualization of hierarchical country and their flags data",
     "keywords": "",
-    "tags": "css, code",
+    "tags": "culture, D3 code",
     "wip": "",
-    "award": "Attribution: TechieCoder",
-    "award2": "",
+    "award": "Attribution: Curran Kelleher",
+    "award2": "Attribution: Lipis",
     "award3": "",
     "comments": "",
-    "imgUrl": "/imgs/penrose-triangle.webp",
+    "imgUrl": "/imgs/country-flags-tree.avif",
     "type": "viz"
   },
   {
