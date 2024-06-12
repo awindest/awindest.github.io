@@ -1,5 +1,22 @@
 [
   {
+    "title": "Our home planet 🌏",
+    "subtitle": "A nice visualization of our planet with clouds",
+    "url": "https://earth-model-2017.vercel.app/",
+    "month": 6,
+    "year": 2024,
+    "description": "Visualization of our home planet",
+    "keywords": "",
+    "tags": "3-d data viz",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/earth-2017.avif",
+    "type": "viz"
+  },
+  {
     "title": "Country Flags of the World 🌏",
     "subtitle": "A nice hierarchical data visualization of country flags",
     "url": "https://sveletkit-world-countries-tree.vercel.app/",
@@ -366,7 +383,7 @@
     "keywords": "",
     "tags": "data viz,interactive",
     "wip": "",
-    "award": "",
+    "award": "Version 8",
     "award2": "",
     "award3": "",
     "comments": "",
