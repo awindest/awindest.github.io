@@ -7,7 +7,7 @@
     "year": 2024,
     "description": "Visualization of our home planet",
     "keywords": "",
-    "tags": "3-d data viz",
+    "tags": "3-d data viz, threejs",
     "wip": "",
     "award": "",
     "award2": "",
@@ -34,7 +34,7 @@
     "type": "viz"
   },
   {
-    "title": "My First LoFi (local first) app",
+    "title": "My First LoFi (local first) app ☕️",
     "subtitle": "Local first allows you to work offline with private data",
     "url": "https://github.com/awindest/my-first-lofi-app",
     "month": 5,
@@ -53,7 +53,7 @@
   {
     "title": "Revisiting the \"hello world\" of data science with Knime",
     "subtitle": "This approach sorta implies, \"Why use python?\"",
-    "url": "https://awindest.github.io/web-debris/",
+    "url": "https://knime-titanic-data-science.vercel.app/",
     "month": 3,
     "year": 2024,
     "description": "",

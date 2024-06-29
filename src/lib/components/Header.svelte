@@ -6,11 +6,9 @@
 	<Cloud />
 	<div class="introduction">
 		<div class="heading">
-			<span class="im">I'm</span>
+			<span class="im">Hi, I'm</span>
 			<h1 class="name lighten">
-				Bill Indest
-				<!-- <span class="lighten first-name">Bill</span>
-				<span class="lighten last-name">Indest</span> -->
+				Bill Indest  👋
 			</h1>
 		</div>
 		<p class="intro">
