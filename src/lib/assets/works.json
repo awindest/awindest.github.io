@@ -1,5 +1,22 @@
 [
   {
+    "title": "How long is a click?",
+    "subtitle": "Understanding how an Object-relational mapping and a database-as-a-service work.",
+    "url": "https://how-long-is-a-click-green.vercel.app/",
+    "month": 6,
+    "year": 2024,
+    "description": "Playing with milliseconds",
+    "keywords": "",
+    "tags": "svelte, drizzle, turso",
+    "wip": "",
+    "award": "Attribution: Puru Vijay",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/how-long-is-a-click.webp",
+    "type": "stories"
+  },
+  {
     "title": "Our home planet 🌏",
     "subtitle": "A nice visualization of our planet with clouds",
     "url": "https://earth-model-2017.vercel.app/",
