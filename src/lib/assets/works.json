@@ -1,6 +1,6 @@
 [
   {
-    "title": "How long is a click?",
+    "title": "How long is a click?🖱️",
     "subtitle": "Understanding how an Object-relational mapping and a database-as-a-service work.",
     "url": "https://github.com/awindest/how-long-is-a-click",
     "month": 6,
@@ -53,7 +53,7 @@
   {
     "title": "My First LoFi (local first) app ☕️",
     "subtitle": "Local first allows you to work offline with private data",
-    "url": "https://github.com/awindest/my-first-lofi-app",
+    "url": "https://awindest.github.io/my-first-lofi-app",
     "month": 5,
     "year": 2024,
     "description": "",
@@ -749,7 +749,7 @@
   },
   {
     "title": "Friday's branding experiment 🧪",
-    "subtitle": "A live dashboard of what you data quality efforts should be",
+    "subtitle": "A live dashboard of what your data quality efforts should be",
     "url": "https://awindest.github.io/web-debris/",
     "month": "",
     "year": "wip",
@@ -766,15 +766,15 @@
   },
   {
     "title": "Saturday's branding experiment 🧪",
-    "subtitle": "A silly example of meta-data",
-    "url": "https://awindest.github.io/web-debris/",
+    "subtitle": "A silly example of meta-data adapted from XKCD #688",
+    "url": "https://awindest.github.io/web-debris/meta-data",
     "month": 12,
     "year": 2023,
     "description": "",
     "keywords": "",
     "tags": "data story,hand-drawn",
     "wip": "",
-    "award": "",
+    "award": "Attribution: Randall Munroe",
     "award2": "",
     "award3": "",
     "comments": "",
