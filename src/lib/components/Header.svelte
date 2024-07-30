@@ -8,7 +8,7 @@
 		<div class="heading">
 			<span class="im">Hi, I'm</span>
 			<h1 class="name lighten">
-				Bill Indest  👋
+				Andy Mitchell  👋
 			</h1>
 		</div>
 		<p class="intro">
