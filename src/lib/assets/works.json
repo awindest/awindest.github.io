@@ -1,20 +1,20 @@
 [
   {
-    "title": "How long is a click?🖱️",
-    "subtitle": "Understanding how an Object-relational mapping and a database-as-a-service work.",
+    "title": "3-D for the masses",
+    "subtitle": "Understanding how threlte works.",
     "url": "https://github.com/awindest/how-long-is-a-click",
-    "month": 6,
+    "month": 9,
     "year": 2024,
-    "description": "Playing with milliseconds",
+    "description": "Threlte tutorial",
     "keywords": "",
-    "tags": "svelte, drizzle, turso",
+    "tags": "3-d data viz, threlte",
     "wip": "",
-    "award": "Attribution: Puru Vijay",
+    "award": "Attribution: Grischa Erbe",
     "award2": "",
     "award3": "",
     "comments": "",
-    "imgUrl": "/imgs/how-long-is-a-click.webp",
-    "type": "stories"
+    "imgUrl": "/imgs/threlte-conf-ticket.webp",
+    "type": "threed"
   },
   {
     "title": "Our home planet 🌏",
@@ -31,7 +31,7 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/earth-2017.avif",
-    "type": "viz"
+    "type": "threed"
   },
   {
     "title": "Country Flags of the World 🌏",
@@ -92,14 +92,14 @@
     "year": 2024,
     "description": "",
     "keywords": "",
-    "tags": "data viz",
+    "tags": "3-d data viz",
     "wip": "",
     "award": "Attribution: Amit Sheen",
     "award2": "",
     "award3": "",
     "comments": "",
     "imgUrl": "imgs/towering-cubes400x200.avif",
-    "type": "viz"
+    "type": "threed"
   },
   {
     "title": "The Story of PocketHost.io 🎛️",
@@ -218,7 +218,7 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/skyline.avif",
-    "type": "viz"
+    "type": "threed"
   },
   {
     "title": "Github API via Vercel 🌎",

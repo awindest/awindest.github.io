@@ -35,12 +35,13 @@
 	})
 
 	// // there are two steps to add a new section: 1) add to the types array
-	const types = ['stories', 'viz', 'miscellanea', 'papers', 'billweek'] // these are the sections for the cards as specified in the works.js file
+	const types = ['stories', 'viz', 'three-d','miscellanea', 'papers', 'billweek'] // these are the sections for the cards as specified in the works.js file
 
 	// candidate for a loop if we did this: //
 	const category = {
 		stories: 'data stories',
 		viz: 'data visualizations',
+		threed: '3-d visualizations',
 		miscellanea: 'miscellanea',
 		papers: 'technical papers',
 		billweek: 'Bill Week'
