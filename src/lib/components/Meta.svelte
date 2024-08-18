@@ -9,7 +9,7 @@
 
 	export let socialImg = `${base}/social.png`
 
-	export let preloadFont = [
+	export const preloadFont = [
 		'/fonts/formadjrdisplay-regular-webfont.woff2',
 		// '/fonts/formadjrdisplay-bold-webfont.woff2',
 		// '/fonts/formadjrdisplay-italic-webfont.woff2',
