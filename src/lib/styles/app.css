@@ -169,9 +169,10 @@ body {
 	}
 
 	::-webkit-scrollbar-thumb:hover {
-		background-color: var(--gray-5);
-		background-color: var(--color-light-sky-blue);
+		/* background-color: var(--gray-5); */
+		background-color: var(--color-blue-3);
 		cursor: pointer;
+
 	}
 }
 

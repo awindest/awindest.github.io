@@ -1,6 +1,57 @@
 [
   {
-    "title": "3-D for the masses",
+    "title": "3-D Penrose Triangle",
+    "subtitle": "The impossible in three dimensions!",
+    "url": "https://penrose-triangle-3d.vercel.app/",
+    "month": 9,
+    "year": 2024,
+    "description": "A three dimensional Penrose triangle using Threlte.",
+    "keywords": "",
+    "tags": "d3-d data viz, threlte",
+    "wip": "",
+    "award": "Attribution: Michael Ostroff",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/penrose-triangle-3d.webp",
+    "type": "threed"
+  }, 
+  {
+    "title": "Synchronization is a thing ⟺",
+    "subtitle": "How I automagically synchronize my Obsidian folders",
+    "url": "https://awindest.github.io/web-debris/",
+    "month": 9,
+    "year": 2024,
+    "description": "How to synchronize your devices with Synchthing.",
+    "keywords": "",
+    "tags": "data story",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/synchthing-story.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Search for a job using AI 🤖 🧑‍💻",
+    "subtitle": "Automate your job search using openAI",
+    "url": "https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI",
+    "month": 12,
+    "year": 2024,
+    "description": "How to leverage a bot to search for a job",
+    "keywords": "",
+    "tags": "data story, ai, python",
+    "wip": "",
+    "award": "Attribution: Federico Elia, author of AiHawk",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/aihawk.webp",
+    "type": "stories"
+  },
+  {
+    "title": "3-D for the masses 🌐 + 👓 + 🚀",
     "subtitle": "Understanding how threlte works by creating a digital ticket",
     "url": "https://threlte-conference-ticket.vercel.app/",
     "month": 9,
@@ -68,7 +119,7 @@
     "type": "stories"
   },
   {
-    "title": "Revisiting the \"hello world\" of data science with Knime",
+    "title": "Revisiting the \"hello world\" of data science with Knime 👨‍💻",
     "subtitle": "This approach sorta implies, \"Why use python?\"",
     "url": "https://knime-titanic-data-science.vercel.app/",
     "month": 3,
@@ -103,7 +154,7 @@
   },
   {
     "title": "The Story of PocketHost.io 🎛️",
-    "subtitle": "Feels good to know people still do things for free",
+    "subtitle": "Feels good to know people still do things for free, uh, low cost",
     "url": "https://sveltekit-markdown-blog-pearl.vercel.app/pockethost-io",
     "month": 12,
     "year": 2023,
@@ -204,7 +255,7 @@
     "type": "viz"
   },
   {
-    "title": "Github Contributions in 3D 👓",
+    "title": "Github Contributions in 3-D 👓",
     "subtitle": "Using threlte for visualizing data",
     "url": "https://awindest.github.io/github-skyline-threlte/",
     "month": 11,
@@ -222,7 +273,7 @@
   },
   {
     "title": "Github API via Vercel 🌎",
-    "subtitle": "Gain access to github contributions",
+    "subtitle": "Gain access to github contributions (Note: no longer functional)",
     "url": "https://awindest.github.io/github-contributions-api/",
     "month": 11,
     "year": 2023,
@@ -689,7 +740,7 @@
     "keywords": "",
     "tags": "data story,hand-drawn",
     "wip": "",
-    "award": "",
+    "award": "Attribution: Randall Munroe",
     "award2": "",
     "award3": "",
     "comments": "",

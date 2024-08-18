@@ -43,7 +43,7 @@
 
 	h2 {
 		--size: var(--size-3);
-		--color: var(--gray-);
+		--color: var(--gray-6);
 
 		font-family: var(--font-decorative);
 		font-size: var(--size);
