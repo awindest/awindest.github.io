@@ -5,7 +5,7 @@
 		'I like telling stories about data and technology and making visualizations.'
 	export let url = 'https://awindest.github.io/'
 	export let keywords =
-		'data stories, web technology, web design, data science, data visualization, machine learning, artificial intelligence, AI, data wrangling'
+		'data stories, web technology, web design, data science, data visualization, machine learning, artificial intelligence, AI, data wrangling, 3-d visualizations'
 
 	export let socialImg = `${base}/social.png`
 

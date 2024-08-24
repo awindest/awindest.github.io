@@ -31,7 +31,7 @@ Recommend viewing in Visual Source Code.
 	/* Hamburger Menu icon */
 
 	.hamburger {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: 0; /* 10%;*/
 		display: inline-block;

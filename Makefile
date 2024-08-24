@@ -1,9 +1,9 @@
 PHONY: github
 
 github:
-	rm -rf docs
+	pnpm run buildrm -rf docs
 	cp -r build docs
 	touch docs/.nojekyll
 	git add .
-	git commit -m "added meta-data"
+	git commit -m $(message)
 	git push

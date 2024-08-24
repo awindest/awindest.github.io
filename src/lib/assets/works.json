@@ -1,5 +1,22 @@
 [
   {
+    "title": "The Periodic Table in 3-D 🧪 ",
+    "subtitle": "Learn about the elements",
+    "url": "https://periodic-table-3d-zeta.vercel.app/",
+    "month": 9,
+    "year": 2024,
+    "description": "A three dimensional Periodic table that will morph into different shapes.",
+    "keywords": "",
+    "tags": "3-d data viz, threejs",
+    "wip": "",
+    "award": "Attribution: Threejs examples",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/periodic-table-3d.webp",
+    "type": "threed"
+  },
+  {
     "title": "3-D Penrose Triangle",
     "subtitle": "The impossible in three dimensions!",
     "url": "https://penrose-triangle-3d.vercel.app/",
