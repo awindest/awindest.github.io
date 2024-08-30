@@ -1,7 +1,8 @@
 PHONY: github
 
 github:
-	pnpm run buildrm -rf docs
+	pnpm run build
+	rm -rf docs
 	cp -r build docs
 	touch docs/.nojekyll
 	git add .

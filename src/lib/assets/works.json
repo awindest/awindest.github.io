@@ -136,6 +136,23 @@
     "type": "stories"
   },
   {
+    "title": "How long is a click?",
+    "subtitle": "Ever wonder how fast you can click? This app answers.",
+    "url": "https://how-long-is-a-click-green.vercel.app/",
+    "month": 10,
+    "year": 2024,
+    "description": "A little app for fun",
+    "keywords": "",
+    "tags": "code, drizzle, turso",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/click-me.webp",
+    "type": "miscellanea"
+  },
+  {
     "title": "Revisiting the \"hello world\" of data science with Knime 👨‍💻",
     "subtitle": "This approach sorta implies, \"Why use python?\"",
     "url": "https://knime-titanic-data-science.vercel.app/",
