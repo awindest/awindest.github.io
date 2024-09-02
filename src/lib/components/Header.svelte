@@ -28,20 +28,23 @@
 					></iconify-icon></a
 				>
 				<a href="https://sveltekit-markdown-blog-pearl.vercel.app/"
-					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog"></iconify-icon></a
+					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog, wip."></iconify-icon></a
 				>
 				<a href="https://twitter.com/windest"
-					><iconify-icon class="icon" icon="lucide:twitter" title="Twitter"></iconify-icon></a
+					><iconify-icon class="icon" icon="lucide:twitter" title="Twitter, er, X"></iconify-icon></a
 				>
 				<a href="https://github.com/awindest"
 					><iconify-icon
 						class="icon"
 						icon="lucide:github"
-						title="All of my work, including this website is on Github."
+						title="Most of my work, including this website is on Github."
 					></iconify-icon></a
 				>
 				<a href="https://awindest.github.io/web-debris/"
-					><iconify-icon class="icon" icon="lucide:rss" title="RSS feed"></iconify-icon></a
+					><iconify-icon class="icon" icon="lucide:rss" title="RSS feed, not working yet."></iconify-icon></a
+				>
+				<a href="https://vercel.com/awindest/"
+				><iconify-icon class="icon" icon="tabler:brand-vercel" title="My Vercel projects."></iconify-icon></a
 				>
 			</span>
 		</p>
@@ -139,7 +142,9 @@
 		position: relative;
 		display: inline-block;
 		font-family: var(--font-subheader);
-		font-size: var(--size-7);
+		/* font-size: var(--size-7);
+		 */
+		 font-size: var(--font-size-fluid-2); /* open-props - makes font smaller on mobile devices */
 	}
 
 	.socials {
@@ -167,16 +172,19 @@
 		}
 
 		.im {
-			font-size: var(--36px);
+			/* font-size: var(--36px); */
+			font-size: var(--font-size-fluid-2)
 		}
 
 		h1 {
-			font-size: var(--40px);
+			/* font-size: var(--40px); */
+			font-size: var(--font-size-fluid-3);
 		}
 
 		.intro {
 			margin-top: 4px;
-			font-size: var(--22px);
+			/* font-size: var(--22px); */
+			font-size: var(--font-size-fluid-1)
 		}
 
 		.socials {
