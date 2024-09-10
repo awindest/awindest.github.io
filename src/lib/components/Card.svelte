@@ -32,7 +32,7 @@
 			{/each}
 		</div>
 	</div>
-	<!-- FIXME: Lazy loading for images? Image optimization -->
+	<!-- FIXME: Lazy loading for images? Image optimization; done - converted to webp -->
 	<a href={`${data.url}`} target="_blank" rel="noopener">
 		<!-- <a href={`${base}${data.url}`} target="_blank" rel="noopener"> -->
 		<div class="img-wrapper">
@@ -40,6 +40,7 @@
 				src={data.imgUrl}
 				alt={`Preview image of the work "${data.title}: ${data.subtitle}"`}
 				loading="lazy"
+				title={data.description}
 			/>
 		</div>
 		<div class="title">
@@ -200,7 +201,7 @@
 		font-size: var(--size-4);
 		font-family: var(--font-body);
 
-		color: var(--gray-5);
+		color: var(--gray-6);
 	}
 
 	.details {
