@@ -1,5 +1,39 @@
 [
   {
+    "title": "Scary Eyeballs 👀 ",
+    "subtitle": "Move your cursor and click and drag for some fun",
+    "url": "https://scary-eyeballs.vercel.app/",
+    "month": 9,
+    "year": 2024,
+    "description": "A scary skull whose eyes follow your pointer. Play some scary music.",
+    "keywords": "",
+    "tags": "3-d data viz, threlte",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/scary-eyeballs.webp",
+    "type": "threed"
+  },
+  {
+    "title": "A Spoooky Pumpkin 👻 🧪 ",
+    "subtitle": "An experiment with threlte",
+    "url": "https://spoooky-pumpkin.vercel.app/",
+    "month": 10,
+    "year": 2024,
+    "description": "A cute diorama of a garden with a spoooky animated pumpkin.",
+    "keywords": "",
+    "tags": "3-d data viz, threlte",
+    "wip": "",
+    "award": "Attribution: Joy of Code",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/spoooky-pumkin.webp",
+    "type": "threed"
+  },
+  {
     "title": "The Periodic Table in 3-D 🧪 ",
     "subtitle": "Learn about the elements",
     "url": "https://periodic-table-3d-zeta.vercel.app/",
@@ -32,7 +66,7 @@
     "comments": "",
     "imgUrl": "/imgs/penrose-triangle-3d.webp",
     "type": "threed"
-  }, 
+  },
   {
     "title": "Synchronization is a thing ⟺",
     "subtitle": "How I automagically synchronize my Obsidian folders",
@@ -388,6 +422,23 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/blockchain.avif",
+    "type": "stories"
+  },
+  {
+    "title": "Hackathon Presentation 🧑‍💻",
+    "subtitle": "A behind the scenes look at hacking the component tree project",
+    "url": "https://github.com/awindest/indestlabs-hackathon-presentation",
+    "month": "04",
+    "year": 2021,
+    "description": "A Keynote presentation of a hackathon submission exported as a sequence of web pages including animations.",
+    "keywords": "",
+    "tags": "data story, hackathon",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/indestlabs-hackathon.webp",
     "type": "stories"
   },
   {
