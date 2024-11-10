@@ -1,5 +1,22 @@
 [
   {
+    "title": "The Art of Presenting 🎨",
+    "subtitle": "How to make your presentations better",
+    "url": "https://art-of-presenting.vercel.app",
+    "month": 11,
+    "year": 2024,
+    "description": "How to use Truth, Stories and Pictures to improve your presentation skills.",
+    "keywords": "",
+    "tags": "Presenting",
+    "wip": "",
+    "award": "Attribution: © Dan Roam",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/art-of-presenting.webp",
+    "type": "stories"
+  },
+  {
     "title": "Scary Eyeballs 👀 ",
     "subtitle": "Move your cursor and click and drag for some fun",
     "url": "https://scary-eyeballs.vercel.app/",
