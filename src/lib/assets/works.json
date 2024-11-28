@@ -1,5 +1,22 @@
 [
   {
+    "title": "Neko the cat",
+    "subtitle": "An experiment with Svelte 5 runes",
+    "url": "https://neko-six.vercel.app/",
+    "month": 12,
+    "year": 2024,
+    "description": "A little experiment to use Svelte 5 runes between two componments in a fun way. Use Ari's oneko project and added the laser.",
+    "keywords": "",
+    "tags": "interactive,play",
+    "wip": "",
+    "award": "Attribution: adryd325's oneko",
+    "award2": "Attribution: Stanislav Khromov",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/neko.webp",
+    "type": "miscellanea"
+  },
+  {
     "title": "The Art of Presenting 🎨",
     "subtitle": "How to make your presentations better",
     "url": "https://art-of-presenting.vercel.app",
@@ -20,7 +37,7 @@
     "title": "Scary Eyeballs 👀 ",
     "subtitle": "Move your cursor and click and drag for some fun",
     "url": "https://scary-eyeballs.vercel.app/",
-    "month": 9,
+    "month": 10,
     "year": 2024,
     "description": "A scary skull whose eyes follow your pointer. Play some scary music.",
     "keywords": "",
