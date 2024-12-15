@@ -1,5 +1,22 @@
 [
   {
+    "title": "Truchet tiles 🏁",
+    "subtitle": "Tiles rotate to show interesting patterns",
+    "url": "https://truchet-tiles.vercel.app/",
+    "month": 1,
+    "year": 2025,
+    "description": "An interesting exploration into how half-circles can make fantastic patterns. Hover over a tile to rotate it.",
+    "keywords": "",
+    "tags": "graphics, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/truchet-tiles.webp",
+    "type": "viz"
+  },
+  {
     "title": "SQL Examples ⛑️",
     "subtitle": "Rudimentary sql scripts for reference purposes",
     "url": "https://github.com/awindest/sql-examples",
