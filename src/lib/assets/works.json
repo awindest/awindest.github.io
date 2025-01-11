@@ -1,5 +1,22 @@
 [
   {
+    "title": "AWS Icons in 3d",
+    "subtitle": "AWS Services en masse in 3d",
+    "url": "https://aws-icons-3d.vercel.app/",
+    "month": 1,
+    "year": 2025,
+    "description": "A three dimensional view of the 311 AWS services that will morph into different shapes.",
+    "keywords": "",
+    "tags": "graphics, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/aws-icons-3d.webp",
+    "type": "viz"
+  },
+  {
     "title": "Truchet tiles 🏁",
     "subtitle": "Tiles rotate to show interesting patterns",
     "url": "https://truchet-tiles.vercel.app/",
