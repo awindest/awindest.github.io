@@ -1,5 +1,39 @@
 [
   {
+    "title": "Things Go Bump",
+    "subtitle": "Showing off with the GPU",
+    "url": "https://things-go-bump.vercel.app/",
+    "month": 10,
+    "year": 2025,
+    "description": "An animation of many, many objects leveraging the GPU",
+    "keywords": "",
+    "tags": "3-d data viz, threlte",
+    "wip": "",
+    "award": "Attribution: Threlte examples",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/things-go-bump.webp",
+    "type": "threed"
+  },
+  {
+    "title": "Particle Attractors",
+    "subtitle": "Fun with particles and the GPU",
+    "url": "https://particle-attractors.vercel.app/",
+    "month": 9,
+    "year": 2025,
+    "description": "A three dimensional animation of a three point particle attractor",
+    "keywords": "",
+    "tags": "3-d data viz, threejs",
+    "wip": "",
+    "award": "Attribution: Threejs examples",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/particle-attractors.webp",
+    "type": "threed"
+  },
+  {
     "title": "My birthday trip to New Orleans",
     "subtitle": "or how I ate my way thru the city",
     "url": "https://eat-thru-nola.vercel.app/",
@@ -983,6 +1017,23 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/charobjects.avif",
+    "type": "papers"
+  },
+  {
+    "title": "Rossby Waves 🌊",
+    "subtitle": "Waves that would occur without contients",
+    "url": "https://github.com/awindest/technical-artifacts/blob/main/Processing%20Large%20Character%20Objects.pdf",
+    "month": 4,
+    "year": 1983,
+    "description": "A straightforward paper on a variation of Rossby or planetary waves",
+    "keywords": "science",
+    "tags": "technical paper,legacy",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/rossby-waves.webp",
     "type": "papers"
   },
   {
