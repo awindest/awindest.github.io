@@ -10,22 +10,22 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.1",
-		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.43.8",
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
 		"@types/eslint": "8.56.0",
-		"eslint": "^8.56.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.35.1",
-		"feather-icons": "^4.29.1",
-		"iconify-icon": "^2.0.0",
+		"eslint": "^8.57.1",
+		"eslint-config-prettier": "^9.1.2",
+		"eslint-plugin-svelte": "^2.46.1",
+		"feather-icons": "^4.29.2",
+		"iconify-icon": "^2.3.0",
 		"lucide-svelte": "^0.335.0",
-		"open-props": "^1.6.21",
-		"prettier": "^3.1.1",
-		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "^4.2.7",
-		"svelte-persisted-store": "^0.9.1",
-		"vite": "^5.0.3"
+		"open-props": "^1.7.16",
+		"prettier": "^3.6.2",
+		"prettier-plugin-svelte": "^3.4.0",
+		"svelte": "^4.2.20",
+		"svelte-persisted-store": "^0.9.4",
+		"vite": "^5.4.20"
 	},
 	"type": "module"
 }
