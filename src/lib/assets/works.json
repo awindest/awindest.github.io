@@ -1,5 +1,22 @@
 [
   {
+    "title": "Girl With a Pearl Earring 🎨",
+    "subtitle": "This is a beautiful 3d model from Vermeer's painting. Not mine. I wish.",
+    "url": "https://sketchfab.com/3d-models/girl-with-a-pearl-earring-3d-d8d676cbfea44a2db2569fabc4ed6562",
+    "month": 11,
+    "year": 2025,
+    "description": "A beautiful transference from a painting to a 3-D model",
+    "keywords": "",
+    "tags": "3-d data viz",
+    "wip": "",
+    "award": "Attribution: hinxlinx",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/girl-with-pearl-earring.webp",
+    "type": "threed"
+  },
+  {
     "title": "Things Go Bump",
     "subtitle": "Showing off with the GPU",
     "url": "https://things-go-bump.vercel.app/",
