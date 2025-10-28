@@ -1,5 +1,22 @@
 [
   {
+    "title": "A Pushy Button",
+    "subtitle": "Exploring a skeuomorphic styled buttons",
+    "url": "https://pushy-button.vercel.app/",
+    "month": 11,
+    "year": 2025,
+    "description": "A beautifully styled button in a skeuomorphic style using CSS.",
+    "keywords": "",
+    "tags": "graphics, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/pushy-button.webp",
+    "type": "viz"
+  },
+  {
     "title": "Girl With a Pearl Earring 🎨",
     "subtitle": "This is a beautiful 3d model from Vermeer's painting. Not mine. I wish.",
     "url": "https://sketchfab.com/3d-models/girl-with-a-pearl-earring-3d-d8d676cbfea44a2db2569fabc4ed6562",
