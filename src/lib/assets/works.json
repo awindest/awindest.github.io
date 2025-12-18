@@ -1,7 +1,24 @@
 [
   {
+    "title": "Get a Quote",
+    "subtitle": "Random quotes at the push of a button",
+    "url": "https://get-a-quote.vercel.app/",
+    "month": 12,
+    "year": 2025,
+    "description": "A beautifully neuomorphic styled app using CSS that generates a quote from a click.",
+    "keywords": "",
+    "tags": "graphics, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/get-a-quote.webp",
+    "type": "viz"
+  },
+  {
     "title": "A Pushy Button",
-    "subtitle": "Exploring a skeuomorphic styled buttons",
+    "subtitle": "Exploring skeuomorphic styled buttons",
     "url": "https://pushy-button.vercel.app/",
     "month": 11,
     "year": 2025,
