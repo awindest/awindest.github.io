@@ -1,8 +1,25 @@
 [
   {
+    "title": "Scrambling Text Effect",
+    "subtitle": "Leveraging svelte to scramble text",
+    "url": "https://scramble-text-gamma.vercel.app/",
+    "month": 1,
+    "year": 2026,
+    "description": "A wonderful text effect that is easy to implement with svelte.",
+    "keywords": "",
+    "tags": "code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/scramble-text.webp",
+    "type": "viz"
+  },
+  {
     "title": "Get a Quote",
     "subtitle": "Random quotes at the push of a button",
-    "url": "https://get-a-quote.vercel.app/",
+    "url": "https://get-a-quote-black.vercel.app/",
     "month": 12,
     "year": 2025,
     "description": "A beautifully neuomorphic styled app using CSS that generates a quote from a click.",
