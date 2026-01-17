@@ -1,6 +1,23 @@
 [
   {
-    "title": "Scrambling Text Effect",
+    "title": "AI Agent Coding Project ✨",
+    "subtitle": "Learning about the power with 400 lines of code",
+    "url": "https://awindest.github.io/ai-agent-coding-project/",
+    "month": 2,
+    "year": 2026,
+    "description": "An extremely uncomfortable introduction to AI Agent coding. Sheesh!",
+    "keywords": "",
+    "tags": "hacking, code, ethics",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/ai-agent-coding-project.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Scrambling Text Effect 🥚",
     "subtitle": "Leveraging svelte to scramble text",
     "url": "https://scramble-text-gamma.vercel.app/",
     "month": 1,
@@ -17,7 +34,7 @@
     "type": "viz"
   },
   {
-    "title": "Get a Quote",
+    "title": "Get a Quote ⍞🕺🏻⍞",
     "subtitle": "Random quotes at the push of a button",
     "url": "https://get-a-quote-black.vercel.app/",
     "month": 12,
@@ -34,7 +51,7 @@
     "type": "viz"
   },
   {
-    "title": "A Pushy Button",
+    "title": "A Pushy Button 🫸 🫷",
     "subtitle": "Exploring skeuomorphic styled buttons",
     "url": "https://pushy-button.vercel.app/",
     "month": 11,
@@ -68,7 +85,7 @@
     "type": "threed"
   },
   {
-    "title": "Things Go Bump",
+    "title": "Things Go Bump 🙀",
     "subtitle": "Showing off with the GPU",
     "url": "https://things-go-bump.vercel.app/",
     "month": 10,
