@@ -1,5 +1,22 @@
 [
   {
+    "title": "Data Science Stuff",
+    "subtitle": "Experimenting with GSAP",
+    "url": "https://awindest.github.io/data-science-stuff/",
+    "month": 3,
+    "year": 2026,
+    "description": "Fooling around with cool GSAP animations",
+    "keywords": "",
+    "tags": "hacking, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/data-science-stuff.webp",
+    "type": "miscellanea"
+  },
+  {
     "title": "AI Agent Coding Project ✨",
     "subtitle": "Learning about the power with 400 lines of code",
     "url": "https://awindest.github.io/ai-agent-coding-project/",
