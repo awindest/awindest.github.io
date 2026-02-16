@@ -1,5 +1,22 @@
 [
   {
+    "title": "Computer Terminal Animation 💻",
+    "subtitle": "Using GSAP to animate terminal lines",
+    "url": "https://awindest.github.io/computer-terminal-animation/",
+    "month": 4,
+    "year": 2026,
+    "description": "Fooling around with cool GSAP animations",
+    "keywords": "",
+    "tags": "hacking, code",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/computer-terminal-animation.webp",
+    "type": "viz"
+  },
+  {
     "title": "Data Science Stuff",
     "subtitle": "Experimenting with GSAP",
     "url": "https://awindest.github.io/data-science-stuff/",
