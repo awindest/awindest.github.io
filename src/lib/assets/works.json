@@ -1,5 +1,22 @@
 [
   {
+    "title": "A Timeline of LLMs ⏳ ✨",
+    "subtitle": "Look how these are growing!",
+    "url": "https://llm-timeline-two.vercel.app/",
+    "month": 5,
+    "year": 2026,
+    "description": "Nice timeline of LLMs from 2018 to 2026",
+    "keywords": "",
+    "tags": "hacking, ",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/llm-timeline.webp",
+    "type": "viz"
+  },
+  {
     "title": "Computer Terminal Animation 💻",
     "subtitle": "Using GSAP to animate terminal lines",
     "url": "https://awindest.github.io/computer-terminal-animation/",
