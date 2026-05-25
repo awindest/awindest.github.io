@@ -1,6 +1,23 @@
 [
   {
-    "title": "Stereo volume knob with LED switch",
+    "title": "Atmospheric Jellyfish Sprite ⛈️",
+    "subtitle": "A stratospheric phenomenon literally - sim on the left, reality on the right",
+    "url": "https://awindest.github.io/jellyfish-sprites/",
+    "month": 6,
+    "year": 2026,
+    "description": "A cheeseball simulation of jellyfish sprites.",
+    "keywords": "",
+    "tags": "simulation",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/jellyfish-sprites.webp",
+    "type": "miscellanea"
+  },
+  {
+    "title": "Stereo volume knob with LED switch 🎛️",
     "subtitle": "A nice representation of some cool controls",
     "url": "https://awindest.github.io/draggable-volume-knob/",
     "month": 2,
@@ -34,7 +51,7 @@
     "type": "viz"
   },
   {
-    "title": "A brief introduction to AI Orchestration 🎶",
+    "title": "🎶 A brief introduction to AI Orchestration 🎶",
     "subtitle": "A nice visualization of flows and orchestration",
     "url": "https://awindest.github.io/ai-orchestration-intro/",
     "month": 5,
@@ -102,7 +119,7 @@
     "type": "viz"
   },
   {
-    "title": "Data Science Stuff",
+    "title": "Data Science Stuff ⚗️",
     "subtitle": "Experimenting with GSAP",
     "url": "https://awindest.github.io/data-science-stuff/",
     "month": 3,
@@ -221,7 +238,7 @@
     "type": "threed"
   },
   {
-    "title": "Particle Attractors",
+    "title": "Particle Attractors 🧲",
     "subtitle": "Fun with particles and the GPU",
     "url": "https://particle-attractors.vercel.app/",
     "month": 9,
@@ -238,7 +255,7 @@
     "type": "threed"
   },
   {
-    "title": "My birthday trip to New Orleans",
+    "title": "My birthday trip to New Orleans 🎂",
     "subtitle": "or how I ate my way thru the city",
     "url": "https://eat-thru-nola.vercel.app/",
     "month": 6,
@@ -340,7 +357,7 @@
     "type": "viz"
   },
   {
-    "title": "Neko the cat",
+    "title": "Neko the cat 🐱",
     "subtitle": "An experiment with Svelte 5 runes",
     "url": "https://neko-six.vercel.app/",
     "month": 12,
