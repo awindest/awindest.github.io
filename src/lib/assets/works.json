@@ -1,5 +1,22 @@
 [
   {
+    "title": "Soothing Web Art",
+    "subtitle": "A nice flow to watch and relax",
+    "url": "https://flowing-dandelion.vercel.app/",
+    "month": 6,
+    "year": 2026,
+    "description": "Another experiment with Svelte and P5.",
+    "keywords": "",
+    "tags": "web art",
+    "wip": "",
+    "award": "Shader Algorithm by Sophia (fractal kitty)",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/flowing-dandelion.webp",
+    "type": "viz"
+  },
+  {
     "title": "Atmospheric Jellyfish Sprite ⛈️",
     "subtitle": "A stratospheric phenomenon literally - sim on the left, reality on the right",
     "url": "https://awindest.github.io/jellyfish-sprites/",
