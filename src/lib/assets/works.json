@@ -1,5 +1,22 @@
 [
   {
+    "title": "Spawing Tubes",
+    "subtitle": "Fun to watch pipes being created",
+    "url": "https://spawing-tubes.vercel.app/",
+    "month": 6,
+    "year": 2026,
+    "description": "Another experiment with Threlte.",
+    "keywords": "",
+    "tags": "web art",
+    "wip": "",
+    "award": "Attribution: three.js examples",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/spawning-tubes.webp",
+    "type": "viz"
+  },
+  {
     "title": "Soothing Web Art",
     "subtitle": "A nice flow to watch and relax",
     "url": "https://flowing-dandelion.vercel.app/",
