@@ -213,7 +213,7 @@
 	.comments,
 	.award {
 		position: relative;
-		justify-self: flex-end;
+		justify-self: flex-start;
 		/* align-self: flex-end; */
 
 		/* padding: 0 8px; */
