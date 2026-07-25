@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths'
-	export let title = 'Bill Indest Portfolio'
+	export let title = 'Bill Indest Portfolio of data stories and technology'
 	export let description =
-		'I like telling stories about data and technology and making visualizations.'
+		'I like telling stories about data and technology, making visualizations and leveraging AI to become more productive.'
 	export let url = 'https://awindest.github.io/'
 	export let keywords =
 		'data stories, web technology, web design, data science, data visualization, machine learning, artificial intelligence, AI, data wrangling, 3-d visualizations'
@@ -34,16 +34,20 @@
 </script>
 
 <svelte:head>
+	<!-- Primary Meta Tags -->
 	<title>{title}</title>
 	<meta name="description" content={description} />
 	<meta name="author" content="Bill Indest" />
+	<meta name="google-site-verification" content="28KWui8TIKSS1kQu2L25_bifLrcyewujn-mlJ5IhQ3w" />
+
 	<meta name="news_keywords" content={keywords} />
 
+	<!-- Open Graph / Facebook / LinkedIn -->
 	<meta property="og:title" content={title} />
 	<meta property="og:site_name" content="Bill Indest" />
 	<meta property="og:url" content={url} />
 	<meta property="og:description" content={description} />
-	<meta property="og:type" content="article" />
+	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_US" />
 
 	<meta property="og:image" content={socialImg} />
@@ -59,6 +63,8 @@
 	<meta name="twitter:image:src" content={socialImg} />
 
 	<meta name="robots" content="max-image-preview:large" />
+
+	<!-- Canonical Link to Avoid Duplicate Content Penalties -->
 
 	<link rel="canonical" href="{url}/" />
 

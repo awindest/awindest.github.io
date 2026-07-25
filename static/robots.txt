@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /*.js$
+Disallow: /*.json
+Disallow: /*.png
+Disallow: /*.webp
+Disallow: /*.svelte
+Disallow: /*.svelte.ts
+
+Sitemap: https://awindest.github.io/sitemap.xml

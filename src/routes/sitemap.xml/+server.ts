@@ -1,7 +1,18 @@
-export const prerender = true;
+// src/routes/sitemap.xml/+server.ts
+
+// ********
+// MAKE SURE YOU VALIDATE YOUR BUILD URL
+// at https://www.xml-sitemaps.com/validate-xml-sitemap.html
+// ********
+
+
+// this work leveraged this url: https://sveltekit.io/blog/svelte-sitemaps
+
+export const prerender = true; // Optional: Turns this into a static file during build 
+                                // if using adapter-static which we are.
 
 const site = 'https://awindest.github.io'; // change this to reflect your domain
-const pages: string[] = ['']; // populate this with all the slugs you wish to include
+const pages: string[] = ['']; // populate this with all the slugs you wish to include; only have /
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ url }) {
