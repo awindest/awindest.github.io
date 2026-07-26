@@ -38,8 +38,7 @@
 	<title>{title}</title>
 	<meta name="description" content={description} />
 	<meta name="author" content="Bill Indest" />
-	<meta name="google-site-verification" content="28KWui8TIKSS1kQu2L25_bifLrcyewujn-mlJ5IhQ3w" />
-
+	<meta name="google-site-verification" content="Jcxph1L6Q4DvYL17bi8hJKDU9S8Uu349yUAS0fKkrck" />
 	<meta name="news_keywords" content={keywords} />
 
 	<!-- Open Graph / Facebook / LinkedIn -->
