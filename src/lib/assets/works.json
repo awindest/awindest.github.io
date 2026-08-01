@@ -1,19 +1,19 @@
 [
   {
-    "title": "A Timeline of LLMs ⏳ ✨",
-    "subtitle": "Look how these are growing!",
-    "url": "https://awindest.github.io/llm-timeline-intro/",
+    "title": "Pachinko ",
+    "subtitle": "With letters instead of steel balls",
+    "url": "https://awindest.github.io/pachinko/",
     "month": 8,
     "year": 2026,
-    "description": "Nice timeline of LLMs from 2018 to 2026",
+    "description": "Cute represention of letters dropping through posts",
     "keywords": "",
-    "tags": "hacking, vibe coding",
+    "tags": "web physics",
     "wip": "",
-    "award": "",
+    "award": "Attribution: Liam Egan",
     "award2": "",
     "award3": "",
     "comments": "",
-    "imgUrl": "/imgs/llm-timeline.webp",
+    "imgUrl": "/imgs/pachinko.webp",
     "type": "viz"
   },
   {

@@ -1,6 +1,7 @@
 <script>
 	import { base } from '$app/paths'
-	export let title = 'Bill Indest Portfolio of data stories and technology'
+	export let title =
+		"Bill Indest's Portfolio of data stories, new technologies and adventures in AI"
 	export let description =
 		'I like telling stories about data and technology, making visualizations and leveraging AI to become more productive.'
 	export let url = 'https://awindest.github.io/'
@@ -9,28 +10,28 @@
 
 	export let socialImg = `${base}/social.png`
 
-	export const preloadFont = [
-		'/fonts/formadjrdisplay-regular-webfont.woff2',
-		// '/fonts/formadjrdisplay-bold-webfont.woff2',
-		// '/fonts/formadjrdisplay-italic-webfont.woff2',
-		// '/fonts/formadjrdisplay-bolditalic-webfont.woff2',
-		// '/fonts/formadjrdeck-regular-webfont.woff2',
-		// '/fonts/formadjrdeck-bold-webfont.woff2',
-		// '/fonts/formadjrdeck-italic-webfont.woff2',
-		// '/fonts/formadjrdeck-bolditalic-webfont.woff2',
-		// '/fonts/formadjrtext-regular-webfont.woff2',
-		// '/fonts/formadjrtext-bold-webfont.woff2',
-		// '/fonts/formadjrtext-italic-webfont.woff2',
-		// '/fonts/formadjrtext-bolditalic-webfont.woff2',
-		'/fonts/ManifoldExtendedCF-Regular.woff2'
-		// '/fonts/ManifoldExtendedCF-RegularOblique.woff2',
-		// '/fonts/ManifoldExtendedCF-Bold.woff2',
-		// '/fonts/ManifoldExtendedCF-BoldOblique.woff2',
-		// '/fonts/ManifoldExtendedCF-ExtraBold.woff2',
-		// '/fonts/ManifoldExtendedCF-ExtraBoldOblique.woff2',
-		// '/fonts/ManifoldExtendedCF-Heavy.woff2',
-		// '/fonts/ManifoldExtendedCF-HeavyOblique.woff2'
-	].map((d) => base + d)
+	// export const preloadFont = [
+	// 	'/fonts/formadjrdisplay-regular-webfont.woff2',
+	// 	// '/fonts/formadjrdisplay-bold-webfont.woff2',
+	// 	// '/fonts/formadjrdisplay-italic-webfont.woff2',
+	// 	// '/fonts/formadjrdisplay-bolditalic-webfont.woff2',
+	// 	// '/fonts/formadjrdeck-regular-webfont.woff2',
+	// 	// '/fonts/formadjrdeck-bold-webfont.woff2',
+	// 	// '/fonts/formadjrdeck-italic-webfont.woff2',
+	// 	// '/fonts/formadjrdeck-bolditalic-webfont.woff2',
+	// 	// '/fonts/formadjrtext-regular-webfont.woff2',
+	// 	// '/fonts/formadjrtext-bold-webfont.woff2',
+	// 	// '/fonts/formadjrtext-italic-webfont.woff2',
+	// 	// '/fonts/formadjrtext-bolditalic-webfont.woff2',
+	// 	'/fonts/ManifoldExtendedCF-Regular.woff2'
+	// 	// '/fonts/ManifoldExtendedCF-RegularOblique.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-Bold.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-BoldOblique.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-ExtraBold.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-ExtraBoldOblique.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-Heavy.woff2',
+	// 	// '/fonts/ManifoldExtendedCF-HeavyOblique.woff2'
+	// ].map((d) => base + d)
 </script>
 
 <svelte:head>
