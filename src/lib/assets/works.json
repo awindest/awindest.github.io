@@ -17,6 +17,23 @@
     "type": "viz"
   },
   {
+    "title": "A Timeline of LLMs ⏳ ✨",
+    "subtitle": "Look how these are growing!",
+    "url": "https://awindest.github.io/llm-timeline-intro/",
+    "month": 8,
+    "year": 2026,
+    "description": "Nice timeline of LLMs from 2018 to 2026",
+    "keywords": "",
+    "tags": "hacking, vibe coding",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/llm-timeline.webp",
+    "type": "viz"
+  },
+  {
     "title": "Stereo volume knob with LED switch 🎛️",
     "subtitle": "A nice representation of some cool controls",
     "url": "https://awindest.github.io/draggable-volume-knob/",
