@@ -1,5 +1,22 @@
 [
   {
+    "title": "Kleinian Fractals",
+    "subtitle": "Travel through a Klein-scape",
+    "url": "https://kleinian-inversion-fractal.vercel.app",
+    "month": 10,
+    "year": 2026,
+    "description": "A nice stroll through some beautiful fractals",
+    "keywords": "",
+    "tags": "3-d Data Viz, Fractals, TSL",
+    "wip": "",
+    "award": "Attribution: Sean Bradley, <a href='https://sbcode.net/tsl/kleinian/'>Kleinian Inversion Fractal</a>",
+    "award2": "<a href='https://github.com/awindest/kleinian-inversion-fractal'>Source Code</a>",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/kleinian-inversion-fractal.webp",
+    "type": "threed"
+  },
+  {
     "title": "Hall of Horrors 🩸💀🩸",
     "subtitle": "A horrific walk down a hall forever",
     "url": "https://hall-of-horrors.vercel.app",
@@ -34,23 +51,6 @@
     "type": "miscellanea"
   },
   {
-    "title": "Pachinko ",
-    "subtitle": "With letters instead of steel balls",
-    "url": "https://awindest.github.io/pachinko/",
-    "month": 8,
-    "year": 2026,
-    "description": "Cute represention of letters dropping through posts",
-    "keywords": "",
-    "tags": "web physics",
-    "wip": "",
-    "award": "Attribution: Liam Egan",
-    "award2": "",
-    "award3": "",
-    "comments": "",
-    "imgUrl": "/imgs/pachinko.webp",
-    "type": "viz"
-  },
-  {
     "title": "A Timeline of LLMs ⏳ ✨",
     "subtitle": "Look how these are growing!",
     "url": "https://awindest.github.io/llm-timeline-intro/",
@@ -65,6 +65,40 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/llm-timeline.webp",
+    "type": "viz"
+  },
+  {
+    "title": "Navier-Stokes Finite-Time Blowup Visualizer 🌋 ",
+    "subtitle": "Used this equation in my PhD dissertation",
+    "url": "https://awindest.github.io/navier-stokes-viz/",
+    "month": 9,
+    "year": 2026,
+    "description": "A visualization of when the Navier-Stokes equation blows up thus showing that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time.",
+    "keywords": "",
+    "tags": "fun science",
+    "wip": "",
+    "award": "Attribution:  <a href='https://codepen.io/rafaelcastrocouto'>rafaelcastrocouto</a>",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/navier-stokes-viz.webp",
+    "type": "viz"
+  },
+  {
+    "title": "Pachinko ",
+    "subtitle": "With letters instead of steel balls",
+    "url": "https://awindest.github.io/pachinko/",
+    "month": 8,
+    "year": 2026,
+    "description": "Cute represention of letters dropping through posts",
+    "keywords": "",
+    "tags": "web physics",
+    "wip": "",
+    "award": "Attribution: Liam Egan",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/pachinko.webp",
     "type": "viz"
   },
   {
@@ -1357,6 +1391,23 @@
     "award3": "",
     "comments": "",
     "imgUrl": "/imgs/charobjects.avif",
+    "type": "papers"
+  },
+  {
+    "title": "Ring Dynamics in the Western Gulf of Mexico ꩜",
+    "subtitle": "My PhD dissertation",
+    "url": "https://digitalcommons.odu.edu/oeas_etds/133/",
+    "month": 5,
+    "year": 1992,
+    "description": "My dissertation for a PhD from Old Dominion University",
+    "keywords": "science, dissertation",
+    "tags": "dissertation꩜,science",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "comments": "",
+    "imgUrl": "/imgs/ring-dynamics.webp",
     "type": "papers"
   },
   {
