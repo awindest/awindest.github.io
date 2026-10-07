@@ -15,14 +15,14 @@ Recommend viewing in Visual Source Code.
 </script>
 
 <div class="cloud-container">
-	<div class="cloud" id="cloud-base" />
-	<div class="cloud" id="cloud-back" />
-	<div class="cloud" id="cloud-mid" />
-	<div class="cloud" id="cloud-front" />
+	<div class="cloud" id="cloud-base"></div>
+	<div class="cloud" id="cloud-back"></div>
+	<div class="cloud" id="cloud-mid"></div>
+	<div class="cloud" id="cloud-front"></div>
 	<svg width="0" height="0">
 		<!--Top Layer-->
 		<filter id="filter-base">
-			<feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="5" seed="8517" />
+			<feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="3" seed="8517" />
 			<feDisplacementMap in="SourceGraphic" scale="120" />
 		</filter>
 		<filter id="filter-back">
@@ -44,9 +44,9 @@ Recommend viewing in Visual Source Code.
 	.cloud-container {
 		position: absolute;
 		transform: translate(-5em) scale(0.35);
-		-moz-animation: animateCloud 60s linear infinite;
-		-webkit-animation: animateCloud 60s linear infinite;
+		will-change: transform;
 		animation: animateCloud 60s linear infinite;
+		animation-delay: -15s; /* begins 15s into the cycle, so it's visible on load */
 	}
 
 	.cloud {
@@ -92,30 +92,12 @@ Recommend viewing in Visual Source Code.
 
 	/* Keyframes */
 
-	@-webkit-keyframes animateCloud {
-		0% {
-			margin-left: -150%;
-		}
-		100% {
-			margin-left: 130%;
-		}
-	}
-
-	@-moz-keyframes animateCloud {
-		0% {
-			margin-left: -150%;
-		}
-		100% {
-			margin-left: 130%;
-		}
-	}
-
 	@keyframes animateCloud {
-		0% {
-			margin-left: -150%;
+		from {
+			transform: translateX(-130vw) translate(-5em) scale(0.35);
 		}
-		100% {
-			margin-left: 130%;
+		to {
+			transform: translateX(130vw) translate(-5em) scale(0.35);
 		}
 	}
 </style>

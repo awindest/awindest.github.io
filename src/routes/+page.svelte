@@ -26,8 +26,11 @@
 	$numVisits += 1 //  browser persistent local storage
 	// FIXME: Can this be done elsewhere for optimization?
 	// Process data
-	const groupedData = groupBy(data, 'type')
-
+	// const groupedData = groupBy(data, 'type')
+	const groupedData = Object.groupBy(
+		data.filter((data) => data.publish),
+		(data) => data.type
+	)
 	onMount(() => {
 		// after the DOM loads, animate the cards once. Love greensock.
 		// To do: animate as user scrolls down the page using gsap's ScrollTrigger
@@ -35,7 +38,7 @@
 	})
 
 	// // there are two steps to add a new section: 1) add to the types array
-	const types = ['stories', 'viz', 'three-d','miscellanea', 'papers', 'billweek'] // these are the sections for the cards as specified in the works.js file
+	const types = ['stories', 'viz', 'three-d', 'miscellanea', 'papers', 'billweek'] // these are the sections for the cards as specified in the works.js file
 
 	// candidate for a loop if we did this: //
 	const category = {

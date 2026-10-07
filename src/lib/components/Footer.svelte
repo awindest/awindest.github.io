@@ -11,6 +11,7 @@
 			border="0"
 			alt="Laboratory Flask"
 		/>
+		<div class="batteries-included">🔋 batteries included.</div>
 	</div>
 </footer>
 
@@ -30,6 +31,15 @@
 		justify-content: center;
 	}
 
+	.batteries-included {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		font-family: sans-serif;
+
+		font-size: 0.5em;
+		/* text-shadow: none; */
+	}
 	/* author's stamp */
 	#labs {
 		margin-top: 1.5em;

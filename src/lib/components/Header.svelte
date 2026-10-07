@@ -7,9 +7,7 @@
 	<div class="introduction">
 		<div class="heading">
 			<span class="im">Hi, I'm</span>
-			<h1 class="name lighten">
-				Bill Indest 👋
-			</h1>
+			<h1 class="lighten">Bill Indest 👋</h1>
 		</div>
 		<p class="intro">
 			I like telling <span class="em-1">stories </span>about data and technology<br />
@@ -28,10 +26,12 @@
 					></iconify-icon></a
 				>
 				<a href="https://sveltekit-markdown-blog-pearl.vercel.app/"
-					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog, wip."></iconify-icon></a
+					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog, wip."
+					></iconify-icon></a
 				>
 				<a href="https://twitter.com/windest"
-					><iconify-icon class="icon" icon="lucide:twitter" title="Twitter, er, X"></iconify-icon></a
+					><iconify-icon class="icon" icon="lucide:twitter" title="Twitter, er, X"
+					></iconify-icon></a
 				>
 				<a href="https://github.com/awindest"
 					><iconify-icon
@@ -41,10 +41,12 @@
 					></iconify-icon></a
 				>
 				<a href="https://awindest.github.io/web-debris/"
-					><iconify-icon class="icon" icon="lucide:rss" title="RSS feed, not working yet."></iconify-icon></a
+					><iconify-icon class="icon" icon="lucide:rss" title="RSS feed, not working yet."
+					></iconify-icon></a
 				>
 				<a href="https://vercel.com/awindest/"
-				><iconify-icon class="icon" icon="tabler:brand-vercel" title="My Vercel projects."></iconify-icon></a
+					><iconify-icon class="icon" icon="tabler:brand-vercel" title="My Vercel projects."
+					></iconify-icon></a
 				>
 			</span>
 		</p>
@@ -59,15 +61,7 @@
 	.introduction {
 		width: 960px;
 		padding-left: 32px;
-		transform: translateZ(1000px);
-	}
-
-	.name {
-		/* text-shadow:; */
-		/* -3px -3px 2px #fff,
-			-3px 3px 2px #fff,
-			3px -3px 2px #fff,
-			3px 3px 2px #fff; */
+		/* transform: translateZ(1000px); */
 	}
 
 	header {
@@ -102,29 +96,13 @@
 		font-size: var(--size-8);
 		font-family: var(--font-header);
 	}
-	.em-1 {
-		position: relative;
-		/* animation: 3s infinite alternate slidein; */
-		width: 0;
-		animation-duration: 1s;
-	}
-
-	.em-1::after {
-		content: '';
-		position: absolute;
-		bottom: -0.125rem;
-		left: -0.25rem;
-		right: -0.05rem;
-		height: 0.95rem;
-		width: 100%;
-		z-index: -1;
-		background-image: url('/imgs/underline-green-5.svg');
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+	.em-1,
 	.em-2 {
 		position: relative;
+		isolation: isolate;
 	}
+
+	.em-1::after,
 	.em-2::after {
 		content: '';
 		position: absolute;
@@ -132,19 +110,40 @@
 		left: -0.25rem;
 		right: -0.05rem;
 		height: 0.95rem;
+		pointer-events: none;
 		z-index: -1;
-		background-image: url('/imgs/underline-blue-5.svg');
 		background-repeat: no-repeat;
 		background-size: cover;
+
+		/* Initially completely hidden */
+		clip-path: inset(0 100% 0 0);
+
+		/* Draw from left to right */
+		animation: revealUnderline 1.6s ease-out forwards;
+	}
+	.em-1::after {
+		background-image: url('/imgs/underline-green-5.svg');
+		animation-delay: 2s;
+	}
+	.em-2::after {
+		background-image: url('/imgs/underline-blue-5.svg');
+		/* Blue starts slightly after green */
+		animation-delay: 4s;
 	}
 
+	@keyframes revealUnderline {
+		from {
+			clip-path: inset(0 100% 0 0);
+		}
+		to {
+			clip-path: inset(0 0 0 0);
+		}
+	}
 	.intro {
 		position: relative;
 		display: inline-block;
 		font-family: var(--font-subheader);
-		/* font-size: var(--size-7);
-		 */
-		 font-size: var(--font-size-fluid-2); /* open-props - makes font smaller on mobile devices */
+		font-size: var(--font-size-fluid-2); /* open-props - makes font smaller on mobile devices */
 	}
 
 	.socials {
@@ -173,7 +172,7 @@
 
 		.im {
 			/* font-size: var(--36px); */
-			font-size: var(--font-size-fluid-2)
+			font-size: var(--font-size-fluid-2);
 		}
 
 		h1 {
@@ -184,7 +183,7 @@
 		.intro {
 			margin-top: 4px;
 			/* font-size: var(--22px); */
-			font-size: var(--font-size-fluid-1)
+			font-size: var(--font-size-fluid-1);
 		}
 
 		.socials {

@@ -1,5 +1,90 @@
 [
   {
+    "title": "Obsidian + Claude Code = PKB 🔮",
+    "subtitle": "PKB = Personal Knowledge Base",
+    "url": "",
+    "month": 11,
+    "year": 2026,
+    "description": "Another excellent use case leveraging AI",
+    "keywords": "",
+    "tags": "Personal Knowledge Base",
+    "wip": "",
+    "award": "Attribution: <a href='https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f/'>Karpathy/llm-wiki.md</a>",
+    "award2": "",
+    "award3": "",
+    "publish": false,
+    "imgUrl": "/imgs/personal-knowledge-base.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Setting up NemoClaw & OpenClaw 🦀",
+    "subtitle": "Fact: they are different and complementary personal assistants",
+    "url": "",
+    "month": 10,
+    "year": 2026,
+    "description": "NemoClaw to the rescue!",
+    "keywords": "",
+    "tags": "AI Agents",
+    "wip": "",
+    "award": "Attribution: <a href='https://www.nvidia.com/'>Nvidia</a>",
+    "award2": "",
+    "award3": "",
+    "publish": false,
+    "imgUrl": "/imgs/nemoclaw.webp",
+    "type": "stories"
+  },
+  {
+    "title": "How RAG works 🤔",
+    "subtitle": "High-level overview of a Retrieval-Augmented Generation process flow",
+    "url": "https://awindest.github.io/how-rag-works/",
+    "month": 10,
+    "year": 2026,
+    "description": "How RAG works from a flow of information perspective.",
+    "keywords": "",
+    "tags": "Data Flow",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/how-rag-works.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Everydays: The First 5000 Days 🖼️",
+    "subtitle": "JPEG sold for $69 million USD. Whoa! I want to be a digital artist.",
+    "url": "https://onlineonly.christies.com/s/beeple-first-5000-days/beeple-b-1981-1/112924",
+    "month": 10,
+    "year": 2026,
+    "description": "Digital art sold for the unheard of amount of $69 million USD! What do you do with a 312 megabyte jpeg worth that much?",
+    "keywords": "",
+    "tags": "Art, NFT, JPEG",
+    "wip": "",
+    "award": "Attribution: <a href='https://www.beeple-crap.com/'>Mike Winkelmann (Beeple)</a>",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/everydays.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Mandelbulb",
+    "subtitle": "Mesmerization <i>a la</i> fractals",
+    "url": "https://mandelbulb-mauve.vercel.app",
+    "month": 10,
+    "year": 2026,
+    "description": "A beautiful representation of a Mandelbulb fractal",
+    "keywords": "",
+    "tags": "3-d Data Viz, Fractals, TSL",
+    "wip": "",
+    "award": "Attribution: Sean Bradley, <a href='https://sbcode.net/tsl/mandelbulb/'>Kleinian Inversion Fractal</a>",
+    "award2": "<a href='https://github.com/awindest/mandelbulb'>Source Code</a>",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/mandelbulb.webp",
+    "type": "threed"
+  },
+  {
     "title": "Kleinian Fractals",
     "subtitle": "Travel through a Klein-scape",
     "url": "https://kleinian-inversion-fractal.vercel.app",
@@ -12,7 +97,7 @@
     "award": "Attribution: Sean Bradley, <a href='https://sbcode.net/tsl/kleinian/'>Kleinian Inversion Fractal</a>",
     "award2": "<a href='https://github.com/awindest/kleinian-inversion-fractal'>Source Code</a>",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/kleinian-inversion-fractal.webp",
     "type": "threed"
   },
@@ -29,7 +114,7 @@
     "award": "Attribution: Daniel Muñoz, <a href='https://codepen.io/editor/daniel-mu-oz/pen/019ff149-8cea-7d08-bc76-29a54cd08f79'>Infinite Gallery</a>",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/hall-of-horrors.webp",
     "type": "threed"
   },
@@ -46,7 +131,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/blood-drip-canvas.webp",
     "type": "miscellanea"
   },
@@ -63,13 +148,13 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/llm-timeline.webp",
     "type": "viz"
   },
   {
     "title": "Navier-Stokes Finite-Time Blowup Visualizer 🌋 ",
-    "subtitle": "Used this equation in my PhD dissertation",
+    "subtitle": "Used this equation in my PhD dissertation; a good memory",
     "url": "https://awindest.github.io/navier-stokes-viz/",
     "month": 9,
     "year": 2026,
@@ -80,7 +165,7 @@
     "award": "Attribution:  <a href='https://codepen.io/rafaelcastrocouto'>rafaelcastrocouto</a>",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/navier-stokes-viz.webp",
     "type": "viz"
   },
@@ -97,7 +182,7 @@
     "award": "Attribution: Liam Egan",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/pachinko.webp",
     "type": "viz"
   },
@@ -114,7 +199,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/knob-led-switch.webp",
     "type": "viz"
   },
@@ -131,7 +216,7 @@
     "award": "Attribution: Guozheng Ge for python code",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/langgraph-hello-world.webp",
     "type": "stories"
   },
@@ -148,7 +233,7 @@
     "award": "Shader algorithm by pixelomo",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/morphing-mandelbrots.webp",
     "type": "viz"
   },
@@ -165,7 +250,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/space-invaders-audio-controller.webp",
     "type": "stories"
   },
@@ -182,7 +267,7 @@
     "award": "Attribution: three.js examples",
     "award2": "Ah, the NT 3.5 screensaver in modern colors",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/spawning-tubes.webp",
     "type": "viz"
   },
@@ -199,7 +284,7 @@
     "award": "Shader Algorithm by Sophia (fractal kitty)",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/flowing-dandelion.webp",
     "type": "viz"
   },
@@ -216,7 +301,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/jellyfish-sprites.webp",
     "type": "miscellanea"
   },
@@ -233,7 +318,7 @@
     "award": "Disclaimer: Claude and I wrote this",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/ai-orchestration.webp",
     "type": "stories"
   },
@@ -250,7 +335,7 @@
     "award": "Attribution: Raphael Moraes",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/using-claude.webp",
     "type": "stories"
   },
@@ -267,7 +352,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/computer-terminal-animation.webp",
     "type": "viz"
   },
@@ -284,7 +369,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/data-science-stuff.webp",
     "type": "miscellanea"
   },
@@ -301,7 +386,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/ai-agent-coding-project.webp",
     "type": "stories"
   },
@@ -318,7 +403,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/scramble-text.webp",
     "type": "viz"
   },
@@ -335,7 +420,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/get-a-quote.webp",
     "type": "viz"
   },
@@ -352,7 +437,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/pushy-button.webp",
     "type": "viz"
   },
@@ -369,7 +454,7 @@
     "award": "Attribution: hinxlinx",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/girl-with-pearl-earring.webp",
     "type": "threed"
   },
@@ -386,7 +471,7 @@
     "award": "Attribution: Threlte examples",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/things-go-bump.webp",
     "type": "threed"
   },
@@ -403,7 +488,7 @@
     "award": "Attribution: Threejs examples",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/particle-attractors.webp",
     "type": "threed"
   },
@@ -420,7 +505,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/eat-thru-nola.webp",
     "type": "miscellanea"
   },
@@ -437,7 +522,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/fork-bomb.webp",
     "type": "stories"
   },
@@ -454,7 +539,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/aws-icons-3d.webp",
     "type": "threed"
   },
@@ -471,7 +556,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/truchet-tiles.webp",
     "type": "viz"
   },
@@ -488,7 +573,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/sql-examples.webp",
     "type": "miscellanea"
   },
@@ -505,7 +590,7 @@
     "award": "Attribution: Georg Nees",
     "award2": "Attribution: Svelte Tutorial",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/schotter-by-nees.webp",
     "type": "viz"
   },
@@ -522,7 +607,7 @@
     "award": "Attribution: adryd325's oneko",
     "award2": "Attribution: Stanislav Khromov",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/neko.webp",
     "type": "miscellanea"
   },
@@ -539,7 +624,7 @@
     "award": "Attribution: © Dan Roam",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/art-of-presenting.webp",
     "type": "stories"
   },
@@ -556,7 +641,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/scary-eyeballs.webp",
     "type": "threed"
   },
@@ -573,7 +658,7 @@
     "award": "Attribution: Joy of Code",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/spoooky-pumkin.webp",
     "type": "threed"
   },
@@ -590,7 +675,7 @@
     "award": "Attribution: Threejs examples",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/periodic-table-3d.webp",
     "type": "threed"
   },
@@ -607,7 +692,7 @@
     "award": "Attribution: Michael Ostroff",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/penrose-triangle-3d.webp",
     "type": "threed"
   },
@@ -624,7 +709,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/synchthing-story.webp",
     "type": "stories"
   },
@@ -641,7 +726,7 @@
     "award": "Attribution: Federico Elia, author of AiHawk",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/aihawk.webp",
     "type": "stories"
   },
@@ -658,7 +743,7 @@
     "award": "Attribution: Grischa Erbe",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/threlte-conf-ticket.webp",
     "type": "threed"
   },
@@ -675,7 +760,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/earth-2017.avif",
     "type": "threed"
   },
@@ -692,7 +777,7 @@
     "award": "Attribution: Curran Kelleher",
     "award2": "Attribution: Lipis",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/country-flags-tree.avif",
     "type": "viz"
   },
@@ -709,7 +794,7 @@
     "award": "Attribution: Scott Tolinski",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/lofilogo.webp",
     "type": "stories"
   },
@@ -726,7 +811,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/what-is-yaml.webp",
     "type": "miscellanea"
   },
@@ -743,7 +828,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/click-me.webp",
     "type": "miscellanea"
   },
@@ -760,7 +845,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/titanic-sinking.avif",
     "type": "miscellanea"
   },
@@ -777,7 +862,7 @@
     "award": "Attribution: Amit Sheen",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "imgs/towering-cubes400x200.avif",
     "type": "threed"
   },
@@ -794,7 +879,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/pockethost.avif",
     "type": "stories"
   },
@@ -811,7 +896,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/regression.avif",
     "type": "viz"
   },
@@ -828,7 +913,7 @@
     "award": "Attribution: Rafa",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/nixietubeclock400x200.avif",
     "type": "viz"
   },
@@ -845,7 +930,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/ai-generative-art.avif",
     "type": "miscellanea"
   },
@@ -862,7 +947,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/why-i-am-different.avif",
     "type": "miscellanea"
   },
@@ -879,7 +964,7 @@
     "award": "Attribution: Google Code Lab",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/gameolife.avif",
     "type": "viz"
   },
@@ -896,7 +981,7 @@
     "award": "Attribution: Joy of Code",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/skyline.avif",
     "type": "threed"
   },
@@ -913,7 +998,7 @@
     "award": "Attribution: Joy of Code",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/plasmaball.avif",
     "type": "viz"
   },
@@ -930,7 +1015,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/rest.avif",
     "type": "stories"
   },
@@ -947,7 +1032,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/literacy.avif",
     "type": "stories"
   },
@@ -964,7 +1049,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/blockchain.avif",
     "type": "stories"
   },
@@ -981,7 +1066,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/indestlabs-hackathon.webp",
     "type": "stories"
   },
@@ -998,7 +1083,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/serverless.avif",
     "type": "stories"
   },
@@ -1015,7 +1100,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/betteridea.avif",
     "type": "stories"
   },
@@ -1032,7 +1117,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/whycloud.avif",
     "type": "stories"
   },
@@ -1049,7 +1134,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/burningmoney.avif",
     "type": "stories"
   },
@@ -1066,7 +1151,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/comp-world.avif",
     "type": "viz"
   },
@@ -1083,7 +1168,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/globularsales.avif",
     "type": "viz"
   },
@@ -1100,7 +1185,7 @@
     "award": "Version 8",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/chaos.avif",
     "type": "viz"
   },
@@ -1117,7 +1202,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "imgs/bar-chart.avif",
     "type": "viz"
   },
@@ -1134,7 +1219,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/gauge.avif",
     "type": "viz"
   },
@@ -1151,7 +1236,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/arcchart.avif",
     "type": "viz"
   },
@@ -1168,7 +1253,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/kafkajob.avif",
     "type": "miscellanea"
   },
@@ -1185,7 +1270,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/titanic-sinking.avif",
     "type": "miscellanea"
   },
@@ -1202,7 +1287,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/scraping.avif",
     "type": "miscellanea"
   },
@@ -1219,7 +1304,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/fuzziness.avif",
     "type": "miscellanea"
   },
@@ -1236,7 +1321,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/mdmofferings.avif",
     "type": "papers"
   },
@@ -1253,7 +1338,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/delicious-architecture.webp",
     "type": "papers"
   },
@@ -1270,7 +1355,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/apple-to-orange.avif",
     "type": "papers"
   },
@@ -1287,7 +1372,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/mdmsizing.avif",
     "type": "papers"
   },
@@ -1304,7 +1389,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/making-complexity-score.avif",
     "type": "papers"
   },
@@ -1321,7 +1406,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/marvels.avif",
     "type": "papers"
   },
@@ -1338,7 +1423,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/identityresolution.avif",
     "type": "papers"
   },
@@ -1355,7 +1440,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/integratewithgoogle.avif",
     "type": "papers"
   },
@@ -1372,8 +1457,25 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/siebel-architecture.avif",
+    "type": "papers"
+  },
+  {
+    "title": "This Goes To Eleven ",
+    "subtitle": "A Web Services Demonstration",
+    "url": "https://github.com/awindest/technical-artifacts/blob/main/This%20Goes%20to%20Eleven.pdf",
+    "month": 5,
+    "year": 2008,
+    "description": "",
+    "keywords": "",
+    "tags": "paper,legacy",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/this-goes-to-eleven.webp",
     "type": "papers"
   },
   {
@@ -1389,7 +1491,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/charobjects.avif",
     "type": "papers"
   },
@@ -1406,7 +1508,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/ring-dynamics.webp",
     "type": "papers"
   },
@@ -1423,7 +1525,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/rossby-waves.webp",
     "type": "papers"
   },
@@ -1440,7 +1542,7 @@
     "award": "Attribution: Randall Munroe",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/monday.avif",
     "type": "billweek"
   },
@@ -1457,7 +1559,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/tuesday.avif",
     "type": "billweek"
   },
@@ -1474,7 +1576,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/wednesday.avif",
     "type": "billweek"
   },
@@ -1491,7 +1593,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/thursday.avif",
     "type": "billweek"
   },
@@ -1508,7 +1610,7 @@
     "award": "",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/friday.avif",
     "type": "billweek"
   },
@@ -1525,7 +1627,7 @@
     "award": "Attribution: Randall Munroe",
     "award2": "",
     "award3": "",
-    "comments": "",
+    "publish": true,
     "imgUrl": "/imgs/saturday.avif",
     "type": "billweek"
   }
