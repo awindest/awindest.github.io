@@ -25,7 +25,7 @@
 						title="Find out more about me on LinkedIn."
 					></iconify-icon></a
 				>
-				<a href="https://sveltekit-markdown-blog-pearl.vercel.app/"
+				<a href="https://indest-labs-blog-snowy.vercel.app/"
 					><iconify-icon class="icon" icon="grommet-icons:blog" title="My blog, wip."
 					></iconify-icon></a
 				>
