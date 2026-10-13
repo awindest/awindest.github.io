@@ -24,9 +24,8 @@
 	}
 	// Update number of user visits
 	$numVisits += 1 //  browser persistent local storage
-	// FIXME: Can this be done elsewhere for optimization?
+
 	// Process data
-	// const groupedData = groupBy(data, 'type')
 	const groupedData = Object.groupBy(
 		data.filter((data) => data.publish),
 		(data) => data.type

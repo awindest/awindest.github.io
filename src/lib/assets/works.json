@@ -1,5 +1,22 @@
 [
   {
+    "title": "What Are AI Agents? ",
+    "subtitle": "An overview of what an agent is and some use cases",
+    "url": "https://indest-labs-blog-snowy.vercel.app/what-are-ai-agents",
+    "month": 10,
+    "year": 2026,
+    "description": "An introduction to AI Agents",
+    "keywords": "ai, agents",
+    "tags": "AI Agents",
+    "wip": "",
+    "award": "",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/what-are-ai-agents.webp",
+    "type": "stories"
+  },
+  {
     "title": "Obsidian + Claude Code = PKB 🔮",
     "subtitle": "PKB = Personal Knowledge Base",
     "url": "",
@@ -14,6 +31,23 @@
     "award3": "",
     "publish": false,
     "imgUrl": "/imgs/personal-knowledge-base.webp",
+    "type": "stories"
+  },
+  {
+    "title": "Nemotron 3 Ultra for free!",
+    "subtitle": "These LLMs keep getting better and better!",
+    "url": "https://indest-labs-blog-snowy.vercel.app/nemotron",
+    "month": 10,
+    "year": 2026,
+    "description": "How to install Nemotron 3 Ultra.",
+    "keywords": "",
+    "tags": "AI",
+    "wip": "",
+    "award": "Attribution: <a href='https://build.nvidia.com/nvidia/nemotron-3-ultra-550b-a55b'>Nvidia Nemotron</a>",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/nemotron.webp",
     "type": "stories"
   },
   {

@@ -36,7 +36,6 @@
 		bottom: 0;
 		right: 0;
 		font-family: sans-serif;
-
 		font-size: 0.5em;
 		/* text-shadow: none; */
 	}
