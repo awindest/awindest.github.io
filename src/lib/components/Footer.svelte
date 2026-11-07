@@ -12,6 +12,8 @@
 			alt="Laboratory Flask"
 		/>
 		<div class="batteries-included">🔋 batteries included.</div>
+		<!-- <div class="flex gap-6 text-sm opacity-60"> -->
+		<div class="made-with-love">Made with ❤️ for AI</div>
 	</div>
 </footer>
 
@@ -31,13 +33,19 @@
 		justify-content: center;
 	}
 
-	.batteries-included {
+	.batteries-included,
+	.made-with-love {
 		position: absolute;
-		bottom: 0;
-		right: 0;
+		bottom: 0.25rem;
 		font-family: sans-serif;
 		font-size: 0.5em;
 		/* text-shadow: none; */
+	}
+	.batteries-included {
+		right: 0.5rem;
+	}
+	.made-with-love {
+		left: 0.5rem;
 	}
 	/* author's stamp */
 	#labs {

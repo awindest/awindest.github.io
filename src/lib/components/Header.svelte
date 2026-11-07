@@ -2,6 +2,7 @@
 	import Cloud from '$components/Cloud.svelte'
 </script>
 
+<!-- Get icons from here: https://iconify.design/ -->
 <header>
 	<Cloud />
 	<div class="introduction">
@@ -48,6 +49,14 @@
 					><iconify-icon class="icon" icon="tabler:brand-vercel" title="My Vercel projects."
 					></iconify-icon></a
 				>
+				<a href="https://scholar.google.com/citations?hl=en&user=H1avzXMAAAAJ">
+					<iconify-icon class="icon" icon="academicons:google-scholar" title="Google Scholar link.">
+					</iconify-icon></a
+				>
+				<a href="https://orcid.org/0009-0002-3177-0692">
+					<iconify-icon class="icon" icon="la:orcid" title="ORCID registration link.">
+					</iconify-icon></a
+				>
 			</span>
 		</p>
 	</div>
@@ -59,7 +68,8 @@
 	}
 
 	.introduction {
-		width: 960px;
+		/* width: 960px; */
+		width: 1080px;
 		padding-left: 32px;
 		/* transform: translateZ(1000px); */
 	}
