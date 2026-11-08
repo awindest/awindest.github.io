@@ -1,8 +1,25 @@
 [
   {
+    "title": "Fiery Cube 🔥 ",
+    "subtitle": "Another beautiful threejs animation ported to threlte",
+    "url": "https://fiery-cube.vercel.app",
+    "month": 10,
+    "year": 2026,
+    "description": "Using post-processing to enhance some sparkling particles",
+    "keywords": "threlte, three-d",
+    "tags": "3-d data viz, threlte",
+    "wip": "",
+    "award": "Attribution: <a href='https://codepen.io/prisoner849/pen/ZYBKmRN'>prisoner849</a>",
+    "award2": "",
+    "award3": "",
+    "publish": true,
+    "imgUrl": "/imgs/fiery-cube.webp",
+    "type": "threed"
+  },
+  {
     "title": "Sparkling Objects 🪩 ",
     "subtitle": "WEBGPU and post-processing for a shiny 3-d panorama",
-    "url": "https://indest-labs-blog-snowy.vercel.app/what-are-ai-agents",
+    "url": "https://sparkling-objects.vercel.app",
     "month": 10,
     "year": 2026,
     "description": "Using WEBGPU and post-processing to show off some sparkling objects",

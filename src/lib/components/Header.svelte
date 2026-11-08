@@ -68,7 +68,7 @@
 	}
 
 	.introduction {
-		/* width: 960px; */
+		/* width: 960px; increased to handle new social icons of Google Scholar and ORCID */
 		width: 1080px;
 		padding-left: 32px;
 		/* transform: translateZ(1000px); */
